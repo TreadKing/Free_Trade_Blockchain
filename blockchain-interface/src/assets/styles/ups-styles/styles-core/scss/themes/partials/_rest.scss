@@ -1,0 +1,15 @@
+@import './base-theme.scss';
+@import './variables.scss';
+
+@function build-rest-theme-map() {
+
+    $rest-theme: (
+
+    );
+
+    @return map-merge($ups-base-theme, $rest-theme);
+}
+
+@mixin rest-theme {
+    @include variables(build-rest-theme-map());
+}

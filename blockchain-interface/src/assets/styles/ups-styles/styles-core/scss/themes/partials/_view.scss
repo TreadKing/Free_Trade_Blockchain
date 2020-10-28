@@ -1,0 +1,17 @@
+@import './base-theme.scss';
+@import './variables.scss';
+
+
+@function build-view-theme-map() {
+    $view-theme: (
+        "accent": #FD73BB,
+        "header-shield-background": #752950,
+        "header-shield-border": #8C6A7B
+    );
+
+    @return map-merge($ups-base-theme, $view-theme);
+}
+
+@mixin view-theme {
+    @include variables(build-view-theme-map());
+}

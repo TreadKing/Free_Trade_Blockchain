@@ -1,0 +1,6 @@
+@import './partials/help';
+@import '../global';
+
+.help-theme {
+    @include help-theme;
+}

@@ -1,0 +1,6 @@
+@import './partials/work';
+@import '../global';
+
+.work-theme {
+    @include work-theme;
+}

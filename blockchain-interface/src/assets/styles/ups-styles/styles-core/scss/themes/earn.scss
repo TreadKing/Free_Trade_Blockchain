@@ -1,0 +1,6 @@
+@import './partials/earn';
+@import '../global';
+
+.earn-theme {
+    @include earn-theme;
+}

@@ -1,0 +1,22 @@
+<div class="titleBar">
+  <h1>Free Trade Solicitation Form</h1>
+</div>
+
+<div class="leftmargin">
+    <h2>Part Number <input type="text" [(ngModel)]="partNum"></h2>
+    <h2>Part Description <input type="text" [(ngModel)]="partDesc"></h2>
+    <h2>Location Code <input type="text" [(ngModel)]="locationCode"></h2>
+    <h2>Import Country<input type="text" [(ngModel)]="importCountry"></h2>
+    <h2>Period Start <input type="text" [(ngModel)]="periodStart"></h2>
+    <h2>Period End <input type="text" [(ngModel)]="periodEnd"></h2>
+    <h2>Classification Digits <input type="text" [(ngModel)]="classDigits"></h2>
+    
+    
+</div>     
+
+<div class = "click">
+    <button (click)="toggleWord()"> Submit </button>
+    <div *ngIf="!isClicked">
+        <p>Form Submitted</p>
+    </div>
+</div>

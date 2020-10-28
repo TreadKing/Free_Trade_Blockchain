@@ -1,0 +1,133 @@
+{
+  "ApplicationName": "SupplierInput",
+  "DisplayName": "Supplier Input",
+  "Description": "Parts info for Suppliers",
+  "ApplicationRoles": [{
+      "Name": "Supplier",
+      "Description": "A company manufacturing components."
+    }
+  ],
+  "Workflows": [{
+    "Name": "SupplierInput",
+    "DisplayName": "Supplier Input",
+    "Description": "Solicitation for Supplier",
+    "Initiators": ["Supplier"],
+    "StartState": "Accepted",
+    "Properties": [{
+        "Name": "State",
+        "DisplayName": "State",
+        "Description": "Holds the state of the contract.",
+        "Type": {
+          "Name": "state"
+        }
+      },
+      {
+        "Name": "PartNumber",
+        "DisplayName": "Part Number",
+        "Description": "Part Number",
+        "Type": {
+          "Name": "string"
+        }
+      },
+      {
+        "Name": "PartDescription",
+        "DisplayName": "Part Description",
+        "Description": "Part Description",
+        "Type": {
+          "Name": "string"
+        }
+      },
+      {
+          "Name": "LocationCode",
+          "DisplayName": "Location Code",
+          "Description": "Location Code",
+          "Type": {
+            "Name": "string"
+          }
+        },
+        {
+          "Name": "ImportCountry",
+          "DisplayName": "Import Country",
+          "Description": "Import Country",
+          "Type": {
+            "Name": "string"
+          }
+        },
+        {
+          "Name": "Year",
+          "DisplayName": "Year",
+          "Description": "Year",
+          "Type": {
+            "Name": "string"
+          }
+        }
+    ],
+    "Constructor": {
+      "Parameters": [
+          {
+              "Name": "partnumber",
+              "Description": "Part Number",
+              "DisplayName": "Part Number",
+              "Type": {
+                "Name": "string"
+              }
+          },
+              
+          {
+          "Name": "partdescription",
+          "Description": "Part Description",
+          "DisplayName": "Part Description",
+          "Type": {
+            "Name": "string"
+              }
+          },
+          {
+              "Name": "locationcode",
+              "Description": "Location Code",
+              "DisplayName": "Location Code",
+              "Type": {
+                "Name": "string"
+              }
+          },
+          {
+              "Name": "importcountry",
+              "Description": "Import Country",
+              "DisplayName": "Import Country",
+              "Type": {
+                "Name": "string"
+              }
+          },
+
+      {
+          "Name": "year",
+          "Description": "Year",
+          "DisplayName": "Year",
+          "Type": {
+            "Name": "string"
+          }
+      }
+          
+      ]
+    },
+    "Functions": [
+        {
+            "Name": "AcceptedInput",
+            "DisplayName": "Accepted Input",
+            "Description": "Accepted Into Blockchain",
+            "Parameters":[]
+
+        }
+    ],
+    "States": [
+      {
+        "Name": "Accepted",
+        "DisplayName": "Accepted",
+        "Description": "Accepted into the Block Chain",
+        "PercentComplete": 100,
+        "Value": 1,
+        "Style": "Success",
+        "Transitions": []
+      }
+    ]
+  }]
+}

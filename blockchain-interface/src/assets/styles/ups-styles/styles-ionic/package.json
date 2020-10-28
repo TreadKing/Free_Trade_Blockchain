@@ -1,0 +1,54 @@
+{
+  "_args": [
+    [
+      "@ux/styles-ionic@2.0.0-rc.5",
+      "C:\\Users\\vks3ksq\\Projects\\kitchen-sink"
+    ]
+  ],
+  "_from": "@ux/styles-ionic@2.0.0-rc.5",
+  "_id": "@ux/styles-ionic@2.0.0-rc.5",
+  "_inBundle": false,
+  "_integrity": "sha512-/uj513WH1lqnr13n1sawVHe+m8f+PRTyjj9e3TY5fXAjwvdVWT7C7r/HO4Dp/ulkZcNu5H/1Q2df6jNw5SqT+g==",
+  "_location": "/@ux/styles-ionic",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ux/styles-ionic@2.0.0-rc.5",
+    "name": "@ux/styles-ionic",
+    "escapedName": "@ux%2fstyles-ionic",
+    "scope": "@ux",
+    "rawSpec": "2.0.0-rc.5",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0-rc.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://nexusrm.ups.com:8443/repository/npm-hosted/@ux/styles-ionic/-/styles-ionic-2.0.0-rc.5.tgz",
+  "_spec": "2.0.0-rc.5",
+  "_where": "C:\\Users\\vks3ksq\\Projects\\kitchen-sink",
+  "dependencies": {
+    "@ux/styles-core": "2.0.0-rc.3"
+  },
+  "description": "UPS Styles for Ionic",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  },
+  "name": "@ux/styles-ionic",
+  "publishConfig": {
+    "registry": "https://nexusrm.ups.com:8443/repository/npm-hosted/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tfs.ups.com/tfs/UpsProd/P08AGit_Mobile_Framework/_git/ups-styles"
+  },
+  "scripts": {
+    "build": "npx gulp"
+  },
+  "version": "2.0.0-rc.5"
+}

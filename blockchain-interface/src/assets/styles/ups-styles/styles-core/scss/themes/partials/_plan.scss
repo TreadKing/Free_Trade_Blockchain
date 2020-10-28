@@ -1,0 +1,17 @@
+@import './base-theme.scss';
+@import './variables.scss';
+
+@function build-plan-theme-map() {
+
+    $plan-theme: (
+        "accent": #7D9FFD,
+        "header-shield-background": #3E4F7D,
+        "header-shield-border": #646B7D
+    );
+
+    @return map-merge($ups-base-theme, $plan-theme);
+}
+
+@mixin plan-theme {
+    @include variables(build-plan-theme-map());
+}

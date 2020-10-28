@@ -1,0 +1,6 @@
+@import './partials/rest';
+@import '../global';
+
+.rest-theme {
+    @include rest-theme;
+}

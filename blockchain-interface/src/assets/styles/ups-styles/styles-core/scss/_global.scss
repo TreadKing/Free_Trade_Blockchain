@@ -1,0 +1,52 @@
+@import './themes/partials/base-theme';
+@import './components/components-core';
+
+//Added for plugins
+html, body { height: 100%; }
+body { 
+  margin: 0; 
+  font-family: "Segoe UI" , Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--ups-background-color);
+
+  @include uxd-core-components;
+}
+// TKS: Change default font and themes all devices
+// Todo: Confirm backup font heirarchy
+// Todo: Confirm font on mobile devices
+:root,
+:root[mode="md"],
+:root[mode="ios"] {
+    --ups-menu-height: 56px;
+}
+
+@mixin activatable {
+  border-right: 8px solid var(--ups-accent);
+}
+
+
+.active-item {
+  @include activatable();
+}
+
+.activatable-item {
+  transition: background-color .2s linear;
+  border-right: 8px solid transparent;
+
+  &.active-item {
+    @include activatable();
+  }
+
+  &:hover {
+    @include activatable();
+  }
+
+}
+
+
+.uxd {
+  @each $colorClass in $ups-base-theme-colors {
+    &.#{$colorClass} {
+      color: var(--ups-#{$colorClass});
+    }
+  } 
+}

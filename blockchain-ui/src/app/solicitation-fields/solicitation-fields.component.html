@@ -1,0 +1,23 @@
+<div class="titleBar">
+    <h1><b>Free Trade Solicitation Form</b></h1>
+</div>
+
+<div>
+    <h2 class="rawText">Part Number</h2> 
+    <input type="text" class="textBox" [(ngModel)]="partNum"/>
+    
+    <h2 class="rawText">Part Description</h2> 
+    <input type="text" class="textBox" [(ngModel)]="partDesc">
+    
+    <h2 class="rawText">Location Code</h2> 
+    <input type="text" class="textBox" [(ngModel)]="locationCode">
+    
+    <h2 class="rawText">Import Country</h2>
+    <input type="text" class="textBox" [(ngModel)]="importCountry">
+</div>
+
+<div id="submitButt">
+    <a routerLink="/submitted"><button class="btn btn-success pull-right"> Submit </button></a>
+</div>
+
+<router-outlet></router-outlet>

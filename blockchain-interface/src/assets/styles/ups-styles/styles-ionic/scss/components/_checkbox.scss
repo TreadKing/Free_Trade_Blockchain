@@ -1,0 +1,6 @@
+@mixin uxd-checkbox {
+    ion-checkbox {
+        --color: var(--ups-dark);
+        --color-checked: var(--ups-primary);
+    }
+}

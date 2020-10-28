@@ -1,0 +1,18 @@
+@import './base-theme.scss';
+@import './variables.scss';
+
+@function build-help-theme-map() {
+
+    $help-theme: (
+        "accent": #43C8CA,
+        "accent-contrast": black,
+        "header-shield-background": #2A7C7D,
+        "header-shield-border": #5A8F8F
+    );
+
+    @return map-merge($ups-base-theme, $help-theme);
+}
+
+@mixin help-theme {
+    @include variables(build-help-theme-map());
+}

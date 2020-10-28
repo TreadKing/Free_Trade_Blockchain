@@ -1,0 +1,66 @@
+@mixin ups-searchbar {
+    height:30px; 
+    background: var(--ups-light-theme);
+    border: 1px solid var(--ups-light-shade); 
+    box-shadow: inset 1px 1px 3px 0 rgba(0,0,0, 0.50);
+    border-radius: 4px 0px 0px 4px;
+  }
+  
+  @mixin ups-searchbar-active {
+    border: 1px solid var(--ups-primary);
+    box-shadow: 0 0 4px 0 var(--ups-primary), inset 1px 1px 3px 0 rgba(0,0,0,0.50);
+  }
+
+  @mixin uxd-searchbar {
+  
+    ion-searchbar.ups-searchbar input.searchbar-input.sc-ion-searchbar-md {
+    
+    @include ups-searchbar; 
+        
+        &:focus{
+            @include ups-searchbar-active;
+        }
+  }
+
+  
+  .searchbar-input.sc-ion-searchbar-md {
+    @include ups-searchbar();
+
+    &:focus{
+      @include ups-searchbar-active();
+    }
+    padding-inline-start:8px;
+    -webkit-padding-start: 8px;
+  }
+
+  .searchbar-search-icon.sc-ion-searchbar-md {
+    display: none;
+    width: 0;
+    height: 0;
+  }  
+
+  .uxd-searchbar {
+    display: flex;
+    padding: 8px;
+
+    .uxd-searchbar-icon {
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: var(--ups-light);
+      border: 1px solid var(--ups-light-shade);
+      border-radius: 0px 4px 4px 0px;
+
+      ion-icon {
+        font-size: 2em;
+        color: var(--ups-light-contrast);
+        height:24px;
+      }
+    }
+
+    ion-searchbar {
+      padding: 0px;
+    }
+  }
+}

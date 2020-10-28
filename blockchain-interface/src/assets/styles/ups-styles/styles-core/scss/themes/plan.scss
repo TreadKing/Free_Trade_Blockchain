@@ -1,0 +1,6 @@
+@import './partials/plan';
+@import '../global';
+
+.plan-theme {
+    @include plan-theme;
+}

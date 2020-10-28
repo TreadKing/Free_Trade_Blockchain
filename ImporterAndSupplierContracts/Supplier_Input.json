@@ -1,0 +1,263 @@
+{
+    "ApplicationName": "Supplier_Input",
+    "DisplayName": "Supplier_Input",
+    "Description": "Parts info for Suppliers",
+    "ApplicationRoles": [
+        {
+        "Name": "Supplier",
+        "Description": "A company manufacturing components."
+      },
+      {
+          "Name": "Importer",
+          "Description": "A company importing a product"
+      }
+    ],
+    "Workflows": [
+        {
+      "Name": "Supplier_Input",
+      "DisplayName": "Supplier Input",
+      "Description": "Solicitation for Supplier",
+      "Initiators": ["Importer"],
+      "StartState": "Requested",
+      "Properties": [{
+          "Name": "State",
+          "DisplayName": "State",
+          "Description": "Holds the state of the contract.",
+          "Type": {
+            "Name": "state"
+          }
+        },
+        {
+          "Name": "InstanceSupplier",
+          "DisplayName": "Instance Supplier",
+          "Description": "Supplier we are requesting info from",
+          "Type": {
+            "Name": "Supplier"
+          }
+        },
+        {
+          "Name": "PartNumber",
+          "DisplayName": "Part Number",
+          "Description": "Part Number",
+          "Type": {
+            "Name": "string"
+          }
+        },
+        {
+          "Name": "PartDescription",
+          "DisplayName": "Part Description",
+          "Description": "Part Description",
+          "Type": {
+            "Name": "string"
+          }
+        },
+        {
+            "Name": "LocationCode",
+            "DisplayName": "Location Code",
+            "Description": "Location Code",
+            "Type": {
+              "Name": "string"
+            }
+          },
+          {
+            "Name": "ImportCountry",
+            "DisplayName": "Import Country",
+            "Description": "Import Country",
+            "Type": {
+              "Name": "string"
+            }
+          },
+          {
+            "Name": "Year",
+            "DisplayName": "Year",
+            "Description": "Year",
+            "Type": {
+              "Name": "string"
+            }
+          }
+      ],
+      "Constructor": {
+        "Parameters": [
+            {
+                "Name": "partnumber",
+                "Description": "Part Number",
+                "DisplayName": "Part Number",
+                "Type": {
+                  "Name": "string"
+                }
+            },
+                
+            {
+            "Name": "partdescription",
+            "Description": "Part Description",
+            "DisplayName": "Part Description",
+            "Type": {
+              "Name": "string"
+                }
+            },
+
+        {
+            "Name": "year",
+            "Description": "Year",
+            "DisplayName": "Year",
+            "Type": {
+              "Name": "string"
+            }
+        },
+        {
+          "Name" : "instancesupplier",
+          "Description": "Instance Supplier",
+          "DisplayName": "Instance Supplier",
+          "Type":{
+              "Name": "Supplier"
+          }
+        }
+            
+        ]
+      },
+      "Functions": [
+        {
+            "Name": "MakeRequest",
+            "DisplayName": "Make Request",
+            "Description": "Make Request to Supplier",
+            "Parameters":[
+                {
+                "Name" : "partnumber",
+                "Description": "Part Number",
+                "DisplayName": "Part Number",
+                "Type":{
+                    "Name": "string"
+                    }
+                },
+                {
+                    "Name" : "partdescription",
+                    "Description": "Part Description",
+                    "DisplayName": "Part Description",
+                    "Type":{
+                        "Name": "string"
+                    }
+                },
+                {
+                    "Name" : "year",
+                    "Description": "year",
+                    "DisplayName": "year",
+                    "Type":{
+                        "Name": "string"
+                    }
+                },
+                {
+                  "Name" : "instancesupplier",
+                  "Description": "Instance Supplier",
+                  "DisplayName": "Instance Supplier",
+                  "Type":{
+                      "Name": "Supplier"
+                  }
+              }
+            ]
+        },
+
+        {
+            "Name": "SubmitOrigin",
+            "DisplayName": "Submit Origin",
+            "Description": "Submit Origin",
+            "Parameters":[
+                    {
+                        "Name" : "locationcode",
+                        "Description": "Location Code",
+                        "DisplayName": "Location Code",
+                        "Type":{
+                            "Name": "string"
+                            }
+                    },
+                    {
+                        "Name" : "importcountry",
+                        "Description": "Import Country",
+                        "DisplayName": "Import Country",
+                        "Type":{
+                            "Name": "string"
+                        }
+                    }
+            ]
+        }
+
+         
+      ],
+      "States": [
+     
+        {
+            "Name": "Requested",
+            "DisplayName": "Requested",
+            "Description": "The initial state of the compliance check",
+            "PercentComplete": 33,
+            "Style": "Success",
+            "Transitions": [
+              {
+                "AllowedRoles": [ "Importer" ],
+                "AllowedInstanceRoles": [  ],
+                "Description": "request part info",
+                "Function": "MakeRequest",
+                "NextStates": [ "Submitted" ],
+                "DisplayName": "Make Offer"
+              }
+            ]
+          },
+
+          {
+            "Name": "Submitted",
+            "DisplayName": "Submited",
+            "Description": "Supplier submits origin",
+            "PercentComplete": 66,
+            "Style": "Success",
+            "Transitions": [
+              {
+                "AllowedRoles": [  ],
+                "AllowedInstanceRoles": [ "InstanceSupplier" ],
+                "Description": "Submit part origin",
+                "Function": "SubmitOrigin",
+                "NextStates": [ "Accepted" ],
+                "DisplayName": "Make Offer"
+              }
+            ]
+          },
+
+          {
+            "Name": "Accepted",
+            "DisplayName": "Accepted",
+            "Description": "Origin Approved",
+            "PercentComplete": 100,
+            "Style": "Success",
+            "Transitions": [
+              {
+                "AllowedRoles": [  ],
+                "AllowedInstanceRoles": ["InstanceSupplier"],
+                "Description": "Accepted",
+                "Function": "SubmitOrigin",
+                "NextStates": ["Accepted"],
+                "DisplayName": "Accepted"
+              }
+            ]
+          },
+
+          {
+            "Name": "Rejected",
+            "DisplayName": "Rejected",
+            "Description": "Origin Rejected",
+            "PercentComplete": 100,
+            "Style": "Success",
+            "Transitions": [
+              {
+                "AllowedRoles": [  ],
+                "AllowedInstanceRoles": ["InstanceSupplier"],
+                "Description": "Rejected",
+                "Function": "SubmitOrigin",
+                "NextStates": ["Rejected"],
+                "DisplayName": "Rejected"
+              }
+            ]
+          }
+
+
+
+      ]
+    }]
+  }

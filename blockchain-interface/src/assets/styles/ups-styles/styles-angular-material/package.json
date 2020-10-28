@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "@ux/styles-angular-material@0.0.0-rc5",
+      "C:\\Users\\vks3ksq\\Projects\\kitchen-sink"
+    ]
+  ],
+  "_from": "@ux/styles-angular-material@0.0.0-rc5",
+  "_id": "@ux/styles-angular-material@0.0.0-rc5",
+  "_inBundle": false,
+  "_integrity": "sha512-6gAbgMz4d3ocBoVDdEiK+8FTGecfNoX9phqQURmp5se8/wnjqDQ8cY2fuXfinUx+ou9lKKu+rVzY3FlwRMPwSg==",
+  "_location": "/@ux/styles-angular-material",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ux/styles-angular-material@0.0.0-rc5",
+    "name": "@ux/styles-angular-material",
+    "escapedName": "@ux%2fstyles-angular-material",
+    "scope": "@ux",
+    "rawSpec": "0.0.0-rc5",
+    "saveSpec": null,
+    "fetchSpec": "0.0.0-rc5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://nexusrm.ups.com:8443/repository/npm-hosted/@ux/styles-angular-material/-/styles-angular-material-0.0.0-rc5.tgz",
+  "_spec": "0.0.0-rc5",
+  "_where": "C:\\Users\\vks3ksq\\Projects\\kitchen-sink",
+  "author": {
+    "name": "UPS"
+  },
+  "dependencies": {
+    "@ux/styles-core": "^2.0.0-rc2"
+  },
+  "description": "The UPS Stlyes for Angular",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "homepage": "",
+  "keywords": [
+    "ups",
+    "angular",
+    "material",
+    "styling",
+    "css",
+    "scss",
+    "components"
+  ],
+  "license": "ISC",
+  "name": "@ux/styles-angular-material",
+  "peerDependencies": {
+    "@angular/material": "8.x"
+  },
+  "publishConfig": {
+    "registry": "https://nexusrm.ups.com:8443/repository/npm-hosted/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tfs.ups.com/tfs/UpsProd/P08AGit_Mobile_Framework/_git/ups-styles"
+  },
+  "scripts": {
+    "build": "gulp"
+  },
+  "version": "0.0.0-rc5"
+}

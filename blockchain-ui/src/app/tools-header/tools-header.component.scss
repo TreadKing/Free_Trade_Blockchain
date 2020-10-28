@@ -1,0 +1,123 @@
+
+//---------------------HEADER FORMATTING -----------------------------
+//whole bar
+header.d-none.d-lg-flex.bg-primary.shadow-lg.flex-row.lg {
+    font-size: 13px;
+}
+
+.bg-primary {
+    background-color: #300!important;
+    height: 67px;
+}
+
+
+//UPS logo image format
+img.site-logo {
+    margin-top: 8px;
+    width: 35px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
+
+//title formating
+h1.site-title {
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: .91px;
+    top: 3px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 400;
+    color: #dfdbd7;
+}
+
+
+//makes title "UCP Tools" turn yellow on hover
+h1.site-title:hover {
+    color: #ffd100;
+    cursor: pointer;
+}
+
+//title + logo image block positioning
+a#logoNav.header-logo.btn.btn-lg.btn-primary {
+    padding-left: 8px;
+    padding-right: 16px;
+    padding-top: 19px;
+    padding-bottom: 30px;
+}
+
+img {
+    vertical-align: middle;
+    padding-top: 3px;
+}
+
+//background color of header title
+a.header-logo.btn.btn-lg.btn-primary {
+    background-color: #240000;
+    min-width: 240px;
+}
+
+// header nav formatting
+nav#headerNav.header-nav.d-flex.flex-row {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+//Post Shipment Tool title positioning
+h1.post-shipment-title {
+    margin-left: 6px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.12px;
+    top: 4px;
+    position: relative;
+    display: inline-block;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 400;
+    color: #dfdbd7;
+    text-decoration: none;
+}
+
+//makes title "Post Shipment" turn yellow on hover
+h1.post-shipment-title:hover {
+    color: #ffd100;
+    cursor: pointer;
+}
+
+//Get Shipment Tool title positioning
+h1.get-shipment-title {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1.12px;
+    top: 4px;
+    position: relative;
+    display: inline-block;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 400;
+    color: #dfdbd7;
+    text-decoration: none;
+}
+
+//makes title "Get Shipment" turn yellow on hover
+h1.get-shipment-title:hover {
+    color: #ffd100;
+    cursor: pointer;
+}
+
+//changes the color of the post shipment title when that link is active
+.active h1.post-shipment-title {
+    color: #ffd100;
+}
+
+//changes the color of the get shipment title when that link is active
+.active h1.get-shipment-title {
+    color: #ffd100;
+}
+

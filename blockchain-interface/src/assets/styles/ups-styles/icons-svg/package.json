@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "@ux/icons-svg@2.0.0-rc.3",
+      "C:\\Users\\vks3ksq\\Projects\\kitchen-sink"
+    ]
+  ],
+  "_from": "@ux/icons-svg@2.0.0-rc.3",
+  "_id": "@ux/icons-svg@2.0.0-rc.3",
+  "_inBundle": false,
+  "_integrity": "sha512-t6Ei+5fu4vAzP72xkGGQuxMJMq6xCWjkuk0Ejv3hjtfYSCiYGlFiOJgKC4Qdtno8pRQDo48I7r3hloFGwmHPvw==",
+  "_location": "/@ux/icons-svg",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ux/icons-svg@2.0.0-rc.3",
+    "name": "@ux/icons-svg",
+    "escapedName": "@ux%2ficons-svg",
+    "scope": "@ux",
+    "rawSpec": "2.0.0-rc.3",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0-rc.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://nexusrm.ups.com:8443/repository/npm-hosted/@ux/icons-svg/-/icons-svg-2.0.0-rc.3.tgz",
+  "_spec": "2.0.0-rc.3",
+  "_where": "C:\\Users\\vks3ksq\\Projects\\kitchen-sink",
+  "author": {
+    "name": "UPS"
+  },
+  "dependencies": {},
+  "description": "The svg icons UPS Icons",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "directory-tree": "^2.2.3",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-iconfont": "^10.0.3",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sort": "^2.0.0",
+    "node-sass": "^4.12.0",
+    "through2": "^3.0.1",
+    "xml2js": "^0.4.23"
+  },
+  "keywords": [
+    "UPS",
+    "Icons",
+    "SVG"
+  ],
+  "name": "@ux/icons-svg",
+  "publishConfig": {
+    "registry": "https://nexusrm.ups.com:8443/repository/npm-hosted/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tfs.ups.com/tfs/UpsProd/P08AGit_Mobile_Framework/_git/icons-svg"
+  },
+  "scripts": {
+    "build": "npx gulp"
+  },
+  "version": "2.0.0-rc.3"
+}

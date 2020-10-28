@@ -1,0 +1,9 @@
+@mixin uxd-radio-button {
+
+    ion-radio {
+        margin: 10px;
+        --color: var(--ups-dark);
+        --color-checked: var(--ups-primary);
+    } 
+
+}

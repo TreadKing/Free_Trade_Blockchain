@@ -1,0 +1,237 @@
+{
+  "ApplicationName": "SupplierPlus",
+  "DisplayName": "SupplierPlus",
+  "Description": "...",
+  "ApplicationRoles": [
+    {
+      "Name": "Importer",
+      "Description": "..."
+    },
+    {
+      "Name": "Supplier",
+      "Description": "..."
+    }
+  ],
+  "Workflows": [
+    {
+      "Name": "SupplierPlus",
+      "DisplayName": "Supplier Plus",
+      "Description": "...",
+      "Initiators": [ "Importer" ],
+      "StartState":  "Requested",
+      "Properties": [
+        {
+          "Name": "State",
+          "DisplayName": "State",
+          "Description": "Holds the state of the contract",
+          "Type": {
+            "Name": "state"
+          }
+        },
+        {
+          "Name": "Importer",
+          "DisplayName": "Importer",
+          "Description": "...",
+          "Type": {
+            "Name": "Importer"
+          }
+        },
+        {
+          "Name": "Supplier",
+          "DisplayName": "Supplier",
+          "Description": "...",
+          "Type": {
+            "Name": "Supplier"
+          }
+        },
+        {
+          "Name": "ProductID",
+          "DisplayName": "ProductID",
+          "Description": "...",
+          "Type": {
+            "Name": "string"
+          }
+        },
+        {
+          "Name": "ProductDescription",
+          "DisplayName": "ProductDescription",
+          "Description": "...",
+          "Type": {
+            "Name": "string"
+          }
+        },
+        {
+          "Name": "OriginCountry",
+          "DisplayName": "OriginCountry",
+          "Description": "...",
+          "Type": {
+            "Name": "string"
+          }
+        },        
+        {
+          "Name": "ImportCountry",
+          "DisplayName": "ImportCountry",
+          "Description": "...",
+          "Type": {
+            "Name": "string"
+          }
+        },
+        {
+          "Name": "Year",
+          "DisplayName": "Year",
+          "Description": "...",
+          "Type": {
+            "Name": "string"
+          }
+        }         
+      ],
+      "Constructor": {
+		  "Parameters": [
+			  {
+				"Name": "supplier",
+				"Description": "...",
+				"DisplayName": "supplier",
+				"Type": {
+				  "Name": "Supplier"
+				}
+			  },
+			  {
+				"Name": "productid",
+				"Description": "...",
+				"DisplayName": "productid",
+				"Type": {
+				  "Name": "string"
+				}
+			  },
+			  {
+				"Name": "productdescription",
+				"Description": "...",
+				"DisplayName": "productdescription",
+				"Type": {
+				  "Name": "string"
+				}
+			  },
+			  {
+				"Name": "year",
+				"Description": "...",
+				"DisplayName": "year",
+				"Type": {
+				  "Name": "string"
+				}
+			  }
+			]
+      },
+	  "Functions": [
+        {
+          "Name": "CertifyOrigin",
+          "DisplayName": "CertifyOrigin",
+          "Description": "...",
+          "Parameters": [   
+            {
+              "Name": "origincountry",
+              "Description": "...",
+              "DisplayName": "origincountry",
+              "Type": {
+                "Name": "string"
+              }
+            },
+            {
+              "Name": "importcountry",
+              "Description": "...",
+              "DisplayName": "importcountry",
+              "Type": {
+                "Name": "string"
+              }
+            }  
+          ]
+        },
+		{
+          "Name": "Accepted",
+          "DisplayName": "Accepted",
+          "Description": "...",
+          "Parameters": [
+          ]
+        },
+        {
+              "Name": "Rejected",
+              "DisplayName": "Rejected",
+              "Description": "...",
+              "Parameters": [
+              ]
+            }
+	  ],
+	  "States": [
+		{
+          "Name": "Requested",
+          "DisplayName": "Requested",
+          "Description": "...",
+          "PercentComplete": 33,
+          "Value": 0,
+          "Style": "Success",
+          "Transitions": [
+			{
+              "AllowedRoles": [],
+              "AllowedInstanceRoles": ["Supplier"],
+              "Description": "...",
+              "Function": "CertifyOrigin",
+              "NextStates": [ "Submitted" ],
+              "DisplayName": "CertifyOrigin"
+            }
+		  ]
+		},
+		{
+          "Name": "Submitted",
+          "DisplayName": "Submitted",
+          "Description": "...",
+          "PercentComplete": 50,
+          "Value": 1,
+          "Style": "Success",
+          "Transitions": [
+			{
+              "AllowedRoles": [],
+              "AllowedInstanceRoles": ["Supplier" ],
+              "Description": "...",
+              "Function": "CertifyOrigin",
+              "NextStates": ["Submitted"],
+              "DisplayName": "CertifyOrigin"
+            },
+			{
+              "AllowedRoles": [],
+              "AllowedInstanceRoles": ["Importer"],
+              "Description": "...",
+              "Function": "Accepted",
+              "NextStates": ["Accepted"],
+              "DisplayName": "Accepted"
+            },
+            {
+                    "AllowedRoles": [],
+                    "AllowedInstanceRoles": ["Importer"],
+                    "Description": "...",
+                    "Function": "Rejected",
+                    "NextStates": ["Rejected"],
+                    "DisplayName": "Rejected"
+                  }
+		  ]
+		},
+		{
+          "Name": "Accepted",
+          "DisplayName": "Accepted",
+          "Description": "...",
+          "PercentComplete": 100,
+          "Value": 2,
+          "Style": "Success",
+          "Transitions": []
+		},
+		{
+          "Name": "Rejected",
+          "DisplayName": "Rejected",
+          "Description": "...",
+          "PercentComplete": 100,
+          "Value": 2,
+          "Style": "Success",
+          "Transitions": []
+		}
+	  ]  
+	}
+   ]
+}

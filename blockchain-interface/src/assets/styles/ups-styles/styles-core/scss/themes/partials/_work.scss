@@ -1,0 +1,18 @@
+@import './base-theme.scss';
+@import './variables.scss';
+
+@function build-work-theme-map() {
+
+    $work-theme: (
+        "accent": #FFB500,
+        "accent-contrast": black,
+        "header-shield-background": #351C15,
+        "header-shield-border": #795A47
+    );
+
+    @return map-merge($ups-base-theme, $work-theme);
+}
+
+@mixin work-theme {
+    @include variables(build-work-theme-map());
+}

@@ -1,0 +1,23 @@
+@import 'modal';
+@import 'button';
+@import 'button-group';
+@import 'checkbox';
+@import 'fab';
+@import 'input';
+@import 'label';
+@import 'radio-button';
+@import 'searchbar';
+@import 'list';
+
+@mixin uxd-components {
+    @include uxd-modal;
+    @include uxd-button;
+    @include uxd-button-group;
+    @include uxd-checkbox;
+    @include uxd-fab;
+    @include uxd-input;
+    @include uxd-label;
+    @include uxd-radio-button;
+    @include uxd-searchbar;
+    @include uxd-list;
+}

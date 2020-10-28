@@ -1,0 +1,17 @@
+@import './base-theme.scss';
+@import './variables.scss';
+
+@function build-move-theme-map() {
+
+    $move-theme: (
+        "accent": #DE885A,
+        "header-shield-background": #7D4D33,
+        "header-shield-border": #8C7264
+    );
+
+    @return map-merge($ups-base-theme, $move-theme);
+}
+
+@mixin move-theme {
+    @include variables(build-move-theme-map());
+}

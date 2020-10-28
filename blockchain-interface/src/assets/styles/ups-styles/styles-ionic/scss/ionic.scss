@@ -1,0 +1,63 @@
+@import 'node_modules/@ux/styles-core/scss/themes/partials/base-theme';
+@import 'components/components';
+
+html,
+:root,
+:root[mode="md"],
+:root[mode="ios"] {
+    --ion-font-family: 'Segoe UI', Roboto, 'Helvetica Neue' sans-serif;
+    font-family: var(--ion-font-family) !important;
+}
+
+body {
+    /** Ionic CSS Variables **/
+    // Ionic Variables and Theming. For more info, please see:
+    // http://ionicframework.com/docs/theming/
+    @each $color in $ups-base-theme-colors {
+        --ion-color-#{$color}: var(--ups-#{$color});
+        --ion-color-#{$color}-rgb: var(--ups-#{$color}-rgb);
+        --ion-color-#{$color}-contrast: var(--ups-#{$color}-contrast);
+        --ion-color-#{$color}-contrast-rgb: var(--ups-#{$color}-contrast-rgb);
+        --ion-color-#{$color}-shade: var(--ups-#{$color}-shade);
+        --ion-color-#{$color}-tint: var(--ups-#{$color}-tint);
+    }
+
+    --ion-background-color: var(--ups-background-color);
+    --color: var(--ups-color);
+
+    @include uxd-components;
+}
+
+
+//TKS Todo: Figure out how to add padding near text
+ion-badge {
+--padding-start: 2px;
+--padding-end: 2px;
+}
+
+ion-range {
+--bar-height: 4px;
+--knob-size: 24px;
+}
+
+ion-item-divider {
+--padding-top: 2px;
+--padding-bottom: 2px;
+}
+
+ion-progress-bar {
+    --ion-color-primary: var(--ups-accent)
+}
+
+.dark, .light { //same rules for both light and dark themes for now
+    //For header colors. Used by <ion-toolbar color="ups-theme">
+    .ion-color-ups-theme {
+        --ion-color-base: var(--ups-dark-theme)!important;
+        --ion-color-base-rgb: var(--ups-dark-theme-rgb)!important;
+        --ion-color-contrast: var(--ups-dark-theme-contrast)!important;
+        --ion-color-contrast-rgb: var(--ups-dark-theme-contrast-rgb)!important;
+        --ion-color-shade: var(--ups-dark-theme-shade)!important;
+        --ion-color-tint: var(--ups-dark-theme-tint)!important;
+    }
+
+}

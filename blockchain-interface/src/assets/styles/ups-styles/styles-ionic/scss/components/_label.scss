@@ -1,0 +1,13 @@
+@mixin uxd-label {
+    ion-label {
+        transform: none;
+        -webkit-transform: none;
+        font-weight: 600; //semi-bold
+        --color: #212121; //TODO- rename to ups-gray-text
+
+        &.required:before {
+            content: " *";
+            color: red;
+        }
+    }
+}

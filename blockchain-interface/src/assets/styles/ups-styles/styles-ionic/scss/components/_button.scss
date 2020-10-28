@@ -1,0 +1,60 @@
+@mixin uxd-button {
+    ion-button {
+        text-transform: none;
+        font-weight: normal;
+        letter-spacing: normal;
+        // sizing
+        &[size=large], &[size=medium] {
+            ion-icon {
+                font-size: 24px;
+                height: 24px;
+                width: 24px
+            }
+        }
+        &[size=large]{
+            height: 48px;
+            font-size: 20px;
+        }
+        &[size=medium]{
+            height: 40px;
+            font-size: 16px;
+        }
+        &[size=small]{
+            height: 32px;
+            font-size: 14px;
+            ion-icon {
+                font-size: 16px;
+                height: 16px;
+                width: 16px
+            }
+        }
+        // coloring
+        &.button-primary {
+            --background: var(--ups-primary);
+            --color: var(--ups-primary-contrast);
+            ion-icon {
+                --color: var(--ups-primary-contrast);
+            }
+        }
+        &.button-secondary, &.button-disabled {
+            border: 1px solid var(--ups-light-shade);
+            box-shadow: 0 1px 1px 0 rgba(0,0,0,0.50);        
+            border-radius: 4px;
+            border-radius: 4px;
+        }
+        &.button-secondary {
+            --background: var(--ups-primary-contrast);
+            --color: var(--ups-primary);
+            ion-icon {
+                --color: var(--ups-primary);
+            }
+        }
+        &.button-disabled {
+            --background: var(--ups-light);
+            --color: var(--ups-light-contrast);
+            ion-icon {
+                --color: var(--ups-light-contrast);
+            }
+        }
+    }
+}

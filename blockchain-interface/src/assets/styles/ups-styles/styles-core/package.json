@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "@ux/styles-core@2.0.0-rc.3",
+      "C:\\Users\\vks3ksq\\Projects\\kitchen-sink"
+    ]
+  ],
+  "_from": "@ux/styles-core@2.0.0-rc.3",
+  "_id": "@ux/styles-core@2.0.0-rc.3",
+  "_inBundle": false,
+  "_integrity": "sha512-g0qR99rHJNOHJcE+kws674Io2YrpM706OBc/2WnaTRqT5IVvra20zJonKMWNIUJWon30kxHZn+MIhZq76MQjXQ==",
+  "_location": "/@ux/styles-core",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@ux/styles-core@2.0.0-rc.3",
+    "name": "@ux/styles-core",
+    "escapedName": "@ux%2fstyles-core",
+    "scope": "@ux",
+    "rawSpec": "2.0.0-rc.3",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0-rc.3"
+  },
+  "_requiredBy": [
+    "/",
+    "/@ux/styles-ionic"
+  ],
+  "_resolved": "https://nexusrm.ups.com:8443/repository/npm-hosted/@ux/styles-core/-/styles-core-2.0.0-rc.3.tgz",
+  "_spec": "2.0.0-rc.3",
+  "_where": "C:\\Users\\vks3ksq\\Projects\\kitchen-sink",
+  "author": {
+    "name": "UPS"
+  },
+  "description": "A collection of scss and assets for stlying a UPS application",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  },
+  "keywords": [
+    "ups",
+    "styling",
+    "css",
+    "scss",
+    "components"
+  ],
+  "name": "@ux/styles-core",
+  "publishConfig": {
+    "registry": "https://nexusrm.ups.com:8443/repository/npm-hosted/"
+  },
+  "repository": {
+    "url": "https://tfs.ups.com/tfs/UpsProd/P08AGit_Mobile_Framework/_git/ups-styles"
+  },
+  "scripts": {
+    "build": "npx gulp"
+  },
+  "version": "2.0.0-rc.3"
+}

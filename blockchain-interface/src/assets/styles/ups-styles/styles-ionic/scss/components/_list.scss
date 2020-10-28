@@ -1,0 +1,13 @@
+@mixin uxd-list {
+    ion-list {
+        ion-item {
+            --background-hover: transparent;
+            --background-activated: transparent;
+            --ripple-color: transparent; 
+    
+            ion-label {
+                padding-left: 10px;
+            }
+        }
+    }
+}

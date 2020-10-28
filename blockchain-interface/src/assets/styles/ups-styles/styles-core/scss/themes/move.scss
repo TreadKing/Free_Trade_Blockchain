@@ -1,0 +1,6 @@
+@import './partials/move';
+@import '../global';
+
+.move-theme {
+    @include move-theme;
+}

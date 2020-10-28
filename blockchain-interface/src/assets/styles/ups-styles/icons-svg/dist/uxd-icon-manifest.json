@@ -1,0 +1,5149 @@
+[
+  {
+    "category": "Action",
+    "icons": [
+      {
+        "name": "Add Box",
+        "classname": "uxd-add-box"
+      },
+      {
+        "name": "Add Circle Outline",
+        "classname": "uxd-add-circle-outline"
+      },
+      {
+        "name": "Add Circle",
+        "classname": "uxd-add-circle"
+      },
+      {
+        "name": "Add",
+        "classname": "uxd-add"
+      },
+      {
+        "name": "Backspace",
+        "classname": "uxd-backspace"
+      },
+      {
+        "name": "Book",
+        "classname": "uxd-book",
+        "group": "Bookmark"
+      },
+      {
+        "name": "Bookmark Border",
+        "classname": "uxd-bookmark-border",
+        "group": "Bookmark"
+      },
+      {
+        "name": "Bookmark",
+        "classname": "uxd-bookmark",
+        "group": "Bookmark"
+      },
+      {
+        "name": "Cancel",
+        "classname": "uxd-cancel"
+      },
+      {
+        "name": "Check Box Outline Blank",
+        "classname": "uxd-check-box-outline-blank"
+      },
+      {
+        "name": "Check Box",
+        "classname": "uxd-check-box"
+      },
+      {
+        "name": "Check Circle",
+        "classname": "uxd-check-circle"
+      },
+      {
+        "name": "Check",
+        "classname": "uxd-check"
+      },
+      {
+        "name": "Circle",
+        "classname": "uxd-circle"
+      },
+      {
+        "name": "Assignment Ind",
+        "classname": "uxd-assignment-ind",
+        "group": "Clipboard"
+      },
+      {
+        "name": "Assignment Late",
+        "classname": "uxd-assignment-late",
+        "group": "Clipboard"
+      },
+      {
+        "name": "Assignment Return",
+        "classname": "uxd-assignment-return",
+        "group": "Clipboard"
+      },
+      {
+        "name": "Assignment Returned",
+        "classname": "uxd-assignment-returned",
+        "group": "Clipboard"
+      },
+      {
+        "name": "Assignment Turned In",
+        "classname": "uxd-assignment-turned-in",
+        "group": "Clipboard"
+      },
+      {
+        "name": "Assignment",
+        "classname": "uxd-assignment",
+        "group": "Clipboard"
+      },
+      {
+        "name": "Content Paste",
+        "classname": "uxd-content-paste",
+        "group": "Clipboard"
+      },
+      {
+        "name": "Close",
+        "classname": "uxd-close"
+      },
+      {
+        "name": "Do Not Disturb Alt",
+        "classname": "uxd-do-not-disturb-alt"
+      },
+      {
+        "name": "Do Not Disturb Off",
+        "classname": "uxd-do-not-disturb-off"
+      },
+      {
+        "name": "Do Not Disturb On",
+        "classname": "uxd-do-not-disturb-on"
+      },
+      {
+        "name": "Do Not Disturb",
+        "classname": "uxd-do-not-disturb"
+      },
+      {
+        "name": "Done All",
+        "classname": "uxd-done-all"
+      },
+      {
+        "name": "Group Work",
+        "classname": "uxd-group-work"
+      },
+      {
+        "name": "Highlight Off",
+        "classname": "uxd-highlight-off"
+      },
+      {
+        "name": "In Progress",
+        "classname": "uxd-in-progress"
+      },
+      {
+        "name": "Indeterminate Check Box",
+        "classname": "uxd-indeterminate-check-box"
+      },
+      {
+        "name": "Offline Pin",
+        "classname": "uxd-offline-pin"
+      },
+      {
+        "name": "Radio Button Checked",
+        "classname": "uxd-radio-button-checked"
+      },
+      {
+        "name": "Radio Button Unchecked",
+        "classname": "uxd-radio-button-unchecked"
+      },
+      {
+        "name": "Remove Circle Outline",
+        "classname": "uxd-remove-circle-outline"
+      },
+      {
+        "name": "Remove",
+        "classname": "uxd-remove"
+      },
+      {
+        "name": "Settings Backup Restore",
+        "classname": "uxd-settings-backup-restore"
+      },
+      {
+        "name": "Verified User",
+        "classname": "uxd-verified-user"
+      }
+    ]
+  },
+  {
+    "category": "Alert",
+    "icons": [
+      {
+        "name": "Add Alert",
+        "classname": "uxd-add-alert"
+      },
+      {
+        "name": "Error Outline",
+        "classname": "uxd-error-outline"
+      },
+      {
+        "name": "Error",
+        "classname": "uxd-error"
+      },
+      {
+        "name": "Notifications Active",
+        "classname": "uxd-notifications-active"
+      },
+      {
+        "name": "Notifications None",
+        "classname": "uxd-notifications-none"
+      },
+      {
+        "name": "Notifications Off",
+        "classname": "uxd-notifications-off"
+      },
+      {
+        "name": "Notifications Paused",
+        "classname": "uxd-notifications-paused"
+      },
+      {
+        "name": "Notifications",
+        "classname": "uxd-notifications"
+      },
+      {
+        "name": "Priority High",
+        "classname": "uxd-priority-high"
+      },
+      {
+        "name": "Report",
+        "classname": "uxd-report"
+      },
+      {
+        "name": "Sync Problem",
+        "classname": "uxd-sync-problem"
+      },
+      {
+        "name": "Warning Alt",
+        "classname": "uxd-warning-alt"
+      },
+      {
+        "name": "Warning",
+        "classname": "uxd-warning"
+      }
+    ]
+  },
+  {
+    "category": "Arrow",
+    "icons": [
+      {
+        "name": "Arrow Back",
+        "classname": "uxd-arrow-back"
+      },
+      {
+        "name": "Arrow Downward",
+        "classname": "uxd-arrow-downward"
+      },
+      {
+        "name": "Arrow Drop Down Circle",
+        "classname": "uxd-arrow-drop-down-circle"
+      },
+      {
+        "name": "Arrow Drop Down",
+        "classname": "uxd-arrow-drop-down"
+      },
+      {
+        "name": "Arrow Drop Up",
+        "classname": "uxd-arrow-drop-up"
+      },
+      {
+        "name": "Arrow Forward",
+        "classname": "uxd-arrow-forward"
+      },
+      {
+        "name": "Arrow Upward",
+        "classname": "uxd-arrow-upward"
+      },
+      {
+        "name": "Call Made",
+        "classname": "uxd-call-made"
+      },
+      {
+        "name": "Call Missed Outgoing",
+        "classname": "uxd-call-missed-outgoing"
+      },
+      {
+        "name": "Call Missed",
+        "classname": "uxd-call-missed"
+      },
+      {
+        "name": "Call Received",
+        "classname": "uxd-call-received"
+      },
+      {
+        "name": "Call Split",
+        "classname": "uxd-call-split"
+      },
+      {
+        "name": "Chevron Left",
+        "classname": "uxd-chevron-left"
+      },
+      {
+        "name": "Chevron Right",
+        "classname": "uxd-chevron-right"
+      },
+      {
+        "name": "Compare Arrows",
+        "classname": "uxd-compare-arrows"
+      },
+      {
+        "name": "Double Chevron Left",
+        "classname": "uxd-double-chevron-left"
+      },
+      {
+        "name": "Double Chevron Right",
+        "classname": "uxd-double-chevron-right"
+      },
+      {
+        "name": "Expand Less",
+        "classname": "uxd-expand-less"
+      },
+      {
+        "name": "Expand More",
+        "classname": "uxd-expand-more"
+      },
+      {
+        "name": "First Page",
+        "classname": "uxd-first-page"
+      },
+      {
+        "name": "Forward",
+        "classname": "uxd-forward"
+      },
+      {
+        "name": "Import Export",
+        "classname": "uxd-import-export"
+      },
+      {
+        "name": "Keyboard Backspace",
+        "classname": "uxd-keyboard-backspace"
+      },
+      {
+        "name": "Keyboard Return",
+        "classname": "uxd-keyboard-return"
+      },
+      {
+        "name": "Keyboard Tab",
+        "classname": "uxd-keyboard-tab"
+      },
+      {
+        "name": "Last Page",
+        "classname": "uxd-last-page"
+      },
+      {
+        "name": "Merge Type",
+        "classname": "uxd-merge-type"
+      },
+      {
+        "name": "Open With",
+        "classname": "uxd-open-with"
+      },
+      {
+        "name": "Repeat",
+        "classname": "uxd-repeat"
+      },
+      {
+        "name": "Shuffle",
+        "classname": "uxd-shuffle"
+      },
+      {
+        "name": "Subdirectory Arrow Left",
+        "classname": "uxd-subdirectory-arrow-left"
+      },
+      {
+        "name": "Subdirectory Arrow Right",
+        "classname": "uxd-subdirectory-arrow-right"
+      },
+      {
+        "name": "Swap Calls",
+        "classname": "uxd-swap-calls"
+      },
+      {
+        "name": "Swap Horiz",
+        "classname": "uxd-swap-horiz"
+      },
+      {
+        "name": "Swap Vert",
+        "classname": "uxd-swap-vert"
+      },
+      {
+        "name": "Swap Vertical Circle",
+        "classname": "uxd-swap-vertical-circle"
+      },
+      {
+        "name": "Vertical Align Bottom",
+        "classname": "uxd-vertical-align-bottom"
+      },
+      {
+        "name": "Vertical Align Center",
+        "classname": "uxd-vertical-align-center"
+      },
+      {
+        "name": "Vertical Align Top",
+        "classname": "uxd-vertical-align-top"
+      },
+      {
+        "name": "Zoom Out Map",
+        "classname": "uxd-zoom-out-map"
+      }
+    ]
+  },
+  {
+    "category": "AV",
+    "icons": [
+      {
+        "name": "3d Rotation",
+        "classname": "uxd-3d-rotation"
+      },
+      {
+        "name": "Add To Queue",
+        "classname": "uxd-add-to-queue"
+      },
+      {
+        "name": "Airplay",
+        "classname": "uxd-airplay"
+      },
+      {
+        "name": "Album",
+        "classname": "uxd-album"
+      },
+      {
+        "name": "Art Track",
+        "classname": "uxd-art-track"
+      },
+      {
+        "name": "Audiotrack",
+        "classname": "uxd-audiotrack"
+      },
+      {
+        "name": "Bluetooth Audio",
+        "classname": "uxd-bluetooth-audio"
+      },
+      {
+        "name": "Branding Watermark",
+        "classname": "uxd-branding-watermark"
+      },
+      {
+        "name": "Call To Action",
+        "classname": "uxd-call-to-action"
+      },
+      {
+        "name": "Fast Forward",
+        "classname": "uxd-fast-forward",
+        "group": "Controls"
+      },
+      {
+        "name": "Fast Rewind",
+        "classname": "uxd-fast-rewind",
+        "group": "Controls"
+      },
+      {
+        "name": "Forward 10",
+        "classname": "uxd-forward-10",
+        "group": "Controls"
+      },
+      {
+        "name": "Forward 30",
+        "classname": "uxd-forward-30",
+        "group": "Controls"
+      },
+      {
+        "name": "Forward 5",
+        "classname": "uxd-forward-5",
+        "group": "Controls"
+      },
+      {
+        "name": "Pause Circle Filled",
+        "classname": "uxd-pause-circle-filled",
+        "group": "Controls"
+      },
+      {
+        "name": "Pause Circle Outline",
+        "classname": "uxd-pause-circle-outline",
+        "group": "Controls"
+      },
+      {
+        "name": "Pause",
+        "classname": "uxd-pause",
+        "group": "Controls"
+      },
+      {
+        "name": "Play Arrow",
+        "classname": "uxd-play-arrow",
+        "group": "Controls"
+      },
+      {
+        "name": "Play Circle Filled",
+        "classname": "uxd-play-circle-filled",
+        "group": "Controls"
+      },
+      {
+        "name": "Play Circle Outline",
+        "classname": "uxd-play-circle-outline",
+        "group": "Controls"
+      },
+      {
+        "name": "Replay 10",
+        "classname": "uxd-replay-10",
+        "group": "Controls"
+      },
+      {
+        "name": "Replay 30",
+        "classname": "uxd-replay-30",
+        "group": "Controls"
+      },
+      {
+        "name": "Replay 5",
+        "classname": "uxd-replay-5",
+        "group": "Controls"
+      },
+      {
+        "name": "Skip Next",
+        "classname": "uxd-skip-next",
+        "group": "Controls"
+      },
+      {
+        "name": "Skip Previous",
+        "classname": "uxd-skip-previous",
+        "group": "Controls"
+      },
+      {
+        "name": "Stop",
+        "classname": "uxd-stop",
+        "group": "Controls"
+      },
+      {
+        "name": "Disc Full",
+        "classname": "uxd-disc-full"
+      },
+      {
+        "name": "Eject",
+        "classname": "uxd-eject"
+      },
+      {
+        "name": "Equalizer",
+        "classname": "uxd-equalizer"
+      },
+      {
+        "name": "Featured Play List",
+        "classname": "uxd-featured-play-list"
+      },
+      {
+        "name": "Featured Video",
+        "classname": "uxd-featured-video"
+      },
+      {
+        "name": "Fiber Manual Record",
+        "classname": "uxd-fiber-manual-record"
+      },
+      {
+        "name": "Fiber Smart Record",
+        "classname": "uxd-fiber-smart-record"
+      },
+      {
+        "name": "Games",
+        "classname": "uxd-games"
+      },
+      {
+        "name": "High Quality",
+        "classname": "uxd-high-quality"
+      },
+      {
+        "name": "Keyboard Voice",
+        "classname": "uxd-keyboard-voice"
+      },
+      {
+        "name": "Live Tv",
+        "classname": "uxd-live-tv"
+      },
+      {
+        "name": "Mic",
+        "classname": "uxd-mic"
+      },
+      {
+        "name": "Mnone",
+        "classname": "uxd-mnone"
+      },
+      {
+        "name": "Moff",
+        "classname": "uxd-moff"
+      },
+      {
+        "name": "Movie",
+        "classname": "uxd-movie"
+      },
+      {
+        "name": "Musvideo",
+        "classname": "uxd-musvideo"
+      },
+      {
+        "name": "New Releases",
+        "classname": "uxd-new-releases"
+      },
+      {
+        "name": "Note",
+        "classname": "uxd-note"
+      },
+      {
+        "name": "Party Mode",
+        "classname": "uxd-party-mode"
+      },
+      {
+        "name": "Perm Camera Mic",
+        "classname": "uxd-perm-camera-mic"
+      },
+      {
+        "name": "Play For Work",
+        "classname": "uxd-play-for-work"
+      },
+      {
+        "name": "Library Add",
+        "classname": "uxd-library-add",
+        "group": "Playlist"
+      },
+      {
+        "name": "Library Books",
+        "classname": "uxd-library-books",
+        "group": "Playlist"
+      },
+      {
+        "name": "Library Music",
+        "classname": "uxd-library-music",
+        "group": "Playlist"
+      },
+      {
+        "name": "Playlist Add Check",
+        "classname": "uxd-playlist-add-check",
+        "group": "Playlist"
+      },
+      {
+        "name": "Playlist Add",
+        "classname": "uxd-playlist-add",
+        "group": "Playlist"
+      },
+      {
+        "name": "Playlist Play",
+        "classname": "uxd-playlist-play",
+        "group": "Playlist"
+      },
+      {
+        "name": "Queue Music",
+        "classname": "uxd-queue-music",
+        "group": "Playlist"
+      },
+      {
+        "name": "Queue",
+        "classname": "uxd-queue",
+        "group": "Playlist"
+      },
+      {
+        "name": "Recent Actors",
+        "classname": "uxd-recent-actors",
+        "group": "Playlist"
+      },
+      {
+        "name": "Subscriptions",
+        "classname": "uxd-subscriptions",
+        "group": "Playlist"
+      },
+      {
+        "name": "Video Library",
+        "classname": "uxd-video-library",
+        "group": "Playlist"
+      },
+      {
+        "name": "Queue Play Next",
+        "classname": "uxd-queue-play-next"
+      },
+      {
+        "name": "Radio",
+        "classname": "uxd-radio"
+      },
+      {
+        "name": "Remove From Queue",
+        "classname": "uxd-remove-from-queue"
+      },
+      {
+        "name": "Repeat One",
+        "classname": "uxd-repeat-one"
+      },
+      {
+        "name": "Settings Input Svideo",
+        "classname": "uxd-settings-input-svideo"
+      },
+      {
+        "name": "Settings Overscan",
+        "classname": "uxd-settings-overscan"
+      },
+      {
+        "name": "Settings Voice",
+        "classname": "uxd-settings-voice"
+      },
+      {
+        "name": "Shop Two",
+        "classname": "uxd-shop-two"
+      },
+      {
+        "name": "Shop",
+        "classname": "uxd-shop"
+      },
+      {
+        "name": "Slow Motion Video",
+        "classname": "uxd-slow-motion-video"
+      },
+      {
+        "name": "Headset Mic",
+        "classname": "uxd-headset-mic",
+        "group": "Sound"
+      },
+      {
+        "name": "Headset",
+        "classname": "uxd-headset",
+        "group": "Sound"
+      },
+      {
+        "name": "Hearing",
+        "classname": "uxd-hearing",
+        "group": "Sound"
+      },
+      {
+        "name": "Speaker Group",
+        "classname": "uxd-speaker-group",
+        "group": "Sound"
+      },
+      {
+        "name": "Speaker",
+        "classname": "uxd-speaker",
+        "group": "Sound"
+      },
+      {
+        "name": "Volume Down",
+        "classname": "uxd-volume-down",
+        "group": "Sound"
+      },
+      {
+        "name": "Volume Mute",
+        "classname": "uxd-volume-mute",
+        "group": "Sound"
+      },
+      {
+        "name": "Volume Off",
+        "classname": "uxd-volume-off",
+        "group": "Sound"
+      },
+      {
+        "name": "Volume Up",
+        "classname": "uxd-volume-up",
+        "group": "Sound"
+      },
+      {
+        "name": "Subtitles",
+        "classname": "uxd-subtitles"
+      },
+      {
+        "name": "Surround Sound",
+        "classname": "uxd-surround-sound"
+      },
+      {
+        "name": "Video Call",
+        "classname": "uxd-video-call"
+      },
+      {
+        "name": "Video Label",
+        "classname": "uxd-video-label"
+      },
+      {
+        "name": "Videocam Off",
+        "classname": "uxd-videocam-off"
+      },
+      {
+        "name": "Videocam",
+        "classname": "uxd-videocam"
+      },
+      {
+        "name": "Web Asset",
+        "classname": "uxd-web-asset"
+      },
+      {
+        "name": "Web",
+        "classname": "uxd-web"
+      },
+      {
+        "name": "Closed Caption",
+        "classname": "uxd-closed-caption",
+        "group": "Words"
+      },
+      {
+        "name": "Explicit",
+        "classname": "uxd-explicit",
+        "group": "Words"
+      },
+      {
+        "name": "Fiber Dvr",
+        "classname": "uxd-fiber-dvr",
+        "group": "Words"
+      },
+      {
+        "name": "Fiber New",
+        "classname": "uxd-fiber-new",
+        "group": "Words"
+      },
+      {
+        "name": "Fiber Pin",
+        "classname": "uxd-fiber-pin",
+        "group": "Words"
+      },
+      {
+        "name": "Hd",
+        "classname": "uxd-hd",
+        "group": "Words"
+      }
+    ]
+  },
+  {
+    "category": "Brand",
+    "icons": [
+      {
+        "name": "Adb",
+        "classname": "uxd-adb"
+      },
+      {
+        "name": "Android",
+        "classname": "uxd-android"
+      },
+      {
+        "name": "Coyote",
+        "classname": "uxd-coyote"
+      },
+      {
+        "name": "Polymer",
+        "classname": "uxd-polymer"
+      }
+    ]
+  },
+  {
+    "category": "Chart",
+    "icons": [
+      {
+        "name": "Assessment",
+        "classname": "uxd-assessment"
+      },
+      {
+        "name": "Bubble Chart",
+        "classname": "uxd-bubble-chart"
+      },
+      {
+        "name": "Donut Large",
+        "classname": "uxd-donut-large"
+      },
+      {
+        "name": "Donut Small",
+        "classname": "uxd-donut-small"
+      },
+      {
+        "name": "Insert Chart",
+        "classname": "uxd-insert-chart"
+      },
+      {
+        "name": "Linear Scale",
+        "classname": "uxd-linear-scale"
+      },
+      {
+        "name": "Multiline Chart",
+        "classname": "uxd-multiline-chart"
+      },
+      {
+        "name": "Pie Chart Outlined",
+        "classname": "uxd-pie-chart-outlined"
+      },
+      {
+        "name": "Pie Chart",
+        "classname": "uxd-pie-chart"
+      },
+      {
+        "name": "Poll",
+        "classname": "uxd-poll"
+      },
+      {
+        "name": "Show Chart",
+        "classname": "uxd-show-chart"
+      },
+      {
+        "name": "Timeline",
+        "classname": "uxd-timeline"
+      },
+      {
+        "name": "Trending Down",
+        "classname": "uxd-trending-down"
+      },
+      {
+        "name": "Trending Flat",
+        "classname": "uxd-trending-flat"
+      },
+      {
+        "name": "Trending Up",
+        "classname": "uxd-trending-up"
+      }
+    ]
+  },
+  {
+    "category": "Date-time",
+    "icons": [
+      {
+        "name": "Add Alarm",
+        "classname": "uxd-add-alarm"
+      },
+      {
+        "name": "Add Date",
+        "classname": "uxd-add-date"
+      },
+      {
+        "name": "Alarm Off",
+        "classname": "uxd-alarm-off"
+      },
+      {
+        "name": "Alarm On",
+        "classname": "uxd-alarm-on"
+      },
+      {
+        "name": "Alarm",
+        "classname": "uxd-alarm"
+      },
+      {
+        "name": "Av Timer",
+        "classname": "uxd-av-timer"
+      },
+      {
+        "name": "Calendar Today",
+        "classname": "uxd-calendar-today"
+      },
+      {
+        "name": "Clock Stop",
+        "classname": "uxd-clock-stop"
+      },
+      {
+        "name": "Date Range",
+        "classname": "uxd-date-range"
+      },
+      {
+        "name": "Edit Calendar",
+        "classname": "uxd-edit-calendar"
+      },
+      {
+        "name": "Event Available",
+        "classname": "uxd-event-available"
+      },
+      {
+        "name": "Event Busy",
+        "classname": "uxd-event-busy"
+      },
+      {
+        "name": "Event Note",
+        "classname": "uxd-event-note"
+      },
+      {
+        "name": "Event",
+        "classname": "uxd-event"
+      },
+      {
+        "name": "History",
+        "classname": "uxd-history"
+      },
+      {
+        "name": "Hourglass Empty",
+        "classname": "uxd-hourglass-empty"
+      },
+      {
+        "name": "Hourglass Full",
+        "classname": "uxd-hourglass-full"
+      },
+      {
+        "name": "Minus Date",
+        "classname": "uxd-minus-date"
+      },
+      {
+        "name": "Overtime",
+        "classname": "uxd-overtime"
+      },
+      {
+        "name": "Perm Contact Calendar",
+        "classname": "uxd-perm-contact-calendar"
+      },
+      {
+        "name": "Schedule",
+        "classname": "uxd-schedule"
+      },
+      {
+        "name": "Snooze",
+        "classname": "uxd-snooze"
+      },
+      {
+        "name": "Timelapse",
+        "classname": "uxd-timelapse"
+      },
+      {
+        "name": "Timer Off",
+        "classname": "uxd-timer-off"
+      },
+      {
+        "name": "Timer",
+        "classname": "uxd-timer"
+      },
+      {
+        "name": "Today",
+        "classname": "uxd-today"
+      },
+      {
+        "name": "Track Changes",
+        "classname": "uxd-track-changes"
+      },
+      {
+        "name": "Update",
+        "classname": "uxd-update"
+      },
+      {
+        "name": "Watch Later",
+        "classname": "uxd-watch-later"
+      }
+    ]
+  },
+  {
+    "category": "Device",
+    "icons": [
+      {
+        "name": "Battery Alert",
+        "classname": "uxd-battery-alert",
+        "group": "Battery"
+      },
+      {
+        "name": "Battery Charging Full",
+        "classname": "uxd-battery-charging-full",
+        "group": "Battery"
+      },
+      {
+        "name": "Battery Full",
+        "classname": "uxd-battery-full",
+        "group": "Battery"
+      },
+      {
+        "name": "Battery Std",
+        "classname": "uxd-battery-std",
+        "group": "Battery"
+      },
+      {
+        "name": "Battery Unknown",
+        "classname": "uxd-battery-unknown",
+        "group": "Battery"
+      },
+      {
+        "name": "No Sim",
+        "classname": "uxd-no-sim",
+        "group": "Card"
+      },
+      {
+        "name": "Sd Card",
+        "classname": "uxd-sd-card",
+        "group": "Card"
+      },
+      {
+        "name": "Sim Card Alert",
+        "classname": "uxd-sim-card-alert",
+        "group": "Card"
+      },
+      {
+        "name": "Sim Card",
+        "classname": "uxd-sim-card",
+        "group": "Card"
+      },
+      {
+        "name": "Contact Mail",
+        "classname": "uxd-contact-mail"
+      },
+      {
+        "name": "Contact Phone",
+        "classname": "uxd-contact-phone"
+      },
+      {
+        "name": "Contacts",
+        "classname": "uxd-contacts"
+      },
+      {
+        "name": "Developer Board",
+        "classname": "uxd-developer-board"
+      },
+      {
+        "name": "Developer Mode",
+        "classname": "uxd-developer-mode"
+      },
+      {
+        "name": "Device Hub",
+        "classname": "uxd-device-hub"
+      },
+      {
+        "name": "Diad",
+        "classname": "uxd-diad"
+      },
+      {
+        "name": "Dialpad",
+        "classname": "uxd-dialpad"
+      },
+      {
+        "name": "Dock",
+        "classname": "uxd-dock"
+      },
+      {
+        "name": "Dvr",
+        "classname": "uxd-dvr"
+      },
+      {
+        "name": "Gamepad",
+        "classname": "uxd-gamepad"
+      },
+      {
+        "name": "Grapheq",
+        "classname": "uxd-grapheq"
+      },
+      {
+        "name": "Important Devices",
+        "classname": "uxd-important-devices"
+      },
+      {
+        "name": "Keyboard Hide",
+        "classname": "uxd-keyboard-hide"
+      },
+      {
+        "name": "Keyboard",
+        "classname": "uxd-keyboard"
+      },
+      {
+        "name": "Mouse",
+        "classname": "uxd-mouse"
+      },
+      {
+        "name": "Bluetooth Connected",
+        "classname": "uxd-bluetooth-connected",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Bluetooth Disabled",
+        "classname": "uxd-bluetooth-disabled",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Bluetooth Searching",
+        "classname": "uxd-bluetooth-searching",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Bluetooth",
+        "classname": "uxd-bluetooth",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Cast Connected",
+        "classname": "uxd-cast-connected",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Cast",
+        "classname": "uxd-cast",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Network Cell",
+        "classname": "uxd-network-cell",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Network Check",
+        "classname": "uxd-network-check",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Network Locked",
+        "classname": "uxd-network-locked",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Network Wifi",
+        "classname": "uxd-network-wifi",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Nfc",
+        "classname": "uxd-nfc",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Out Of Area",
+        "classname": "uxd-out-of-area",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Perm Data Setting",
+        "classname": "uxd-perm-data-setting",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Perm Scan Wifi",
+        "classname": "uxd-perm-scan-wifi",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Portable Wifi Off",
+        "classname": "uxd-portable-wifi-off",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Rss Feed",
+        "classname": "uxd-rss-feed",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Satellite Alt",
+        "classname": "uxd-satellite-alt",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Settings Bluetooth",
+        "classname": "uxd-settings-bluetooth",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Settings Input Antenna",
+        "classname": "uxd-settings-input-antenna",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Signal Cellular Connected No Internet 4 Bar",
+        "classname": "uxd-signal-cellular-connected-no-internet-4-bar",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Signal Cellular Null",
+        "classname": "uxd-signal-cellular-null",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Signal Cellular Off",
+        "classname": "uxd-signal-cellular-off",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Signal Wifi Off",
+        "classname": "uxd-signal-wifi-off",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Tap And Play",
+        "classname": "uxd-tap-and-play",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Wifi Error",
+        "classname": "uxd-wifi-error",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Wifi Lock",
+        "classname": "uxd-wifi-lock",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Wifi Off",
+        "classname": "uxd-wifi-off",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Wifi Tethering",
+        "classname": "uxd-wifi-tethering",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Wifi Unknown Issue",
+        "classname": "uxd-wifi-unknown-issue",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Wifi",
+        "classname": "uxd-wifi",
+        "group": "Network-comm"
+      },
+      {
+        "name": "Ondemand Video",
+        "classname": "uxd-ondemand-video"
+      },
+      {
+        "name": "Perm Device Information",
+        "classname": "uxd-perm-device-information"
+      },
+      {
+        "name": "Call End",
+        "classname": "uxd-call-end",
+        "group": "Phone"
+      },
+      {
+        "name": "Call",
+        "classname": "uxd-call",
+        "group": "Phone"
+      },
+      {
+        "name": "Dialer Sip",
+        "classname": "uxd-dialer-sip",
+        "group": "Phone"
+      },
+      {
+        "name": "Perm Phone Msg",
+        "classname": "uxd-perm-phone-msg",
+        "group": "Phone"
+      },
+      {
+        "name": "Phone Bluetooth Speaker",
+        "classname": "uxd-phone-bluetooth-speaker",
+        "group": "Phone"
+      },
+      {
+        "name": "Phone Forwarded",
+        "classname": "uxd-phone-forwarded",
+        "group": "Phone"
+      },
+      {
+        "name": "Phone In Talk",
+        "classname": "uxd-phone-in-talk",
+        "group": "Phone"
+      },
+      {
+        "name": "Phone Locked",
+        "classname": "uxd-phone-locked",
+        "group": "Phone"
+      },
+      {
+        "name": "Phone Missed",
+        "classname": "uxd-phone-missed",
+        "group": "Phone"
+      },
+      {
+        "name": "Phone Paused",
+        "classname": "uxd-phone-paused",
+        "group": "Phone"
+      },
+      {
+        "name": "Phone",
+        "classname": "uxd-phone",
+        "group": "Phone"
+      },
+      {
+        "name": "Phonelink Erase",
+        "classname": "uxd-phonelink-erase",
+        "group": "Phone"
+      },
+      {
+        "name": "Phonelink Lock",
+        "classname": "uxd-phonelink-lock",
+        "group": "Phone"
+      },
+      {
+        "name": "Phonelink Off",
+        "classname": "uxd-phonelink-off",
+        "group": "Phone"
+      },
+      {
+        "name": "Phonelink Ring",
+        "classname": "uxd-phonelink-ring",
+        "group": "Phone"
+      },
+      {
+        "name": "Phonelink Setup",
+        "classname": "uxd-phonelink-setup",
+        "group": "Phone"
+      },
+      {
+        "name": "Ring Volume",
+        "classname": "uxd-ring-volume",
+        "group": "Phone"
+      },
+      {
+        "name": "Settings Phone",
+        "classname": "uxd-settings-phone",
+        "group": "Phone"
+      },
+      {
+        "name": "Plug Broken",
+        "classname": "uxd-plug-broken"
+      },
+      {
+        "name": "Power Input",
+        "classname": "uxd-power-input"
+      },
+      {
+        "name": "Power Off",
+        "classname": "uxd-power-off"
+      },
+      {
+        "name": "Power",
+        "classname": "uxd-power"
+      },
+      {
+        "name": "Present To All",
+        "classname": "uxd-present-to-all"
+      },
+      {
+        "name": "Screen Lock Landscape",
+        "classname": "uxd-screen-lock-landscape"
+      },
+      {
+        "name": "Screen Lock Portrait",
+        "classname": "uxd-screen-lock-portrait"
+      },
+      {
+        "name": "Screen Lock Rotation",
+        "classname": "uxd-screen-lock-rotation"
+      },
+      {
+        "name": "Screen Rotation",
+        "classname": "uxd-screen-rotation"
+      },
+      {
+        "name": "Screen Share",
+        "classname": "uxd-screen-share"
+      },
+      {
+        "name": "Settings Cell",
+        "classname": "uxd-settings-cell"
+      },
+      {
+        "name": "Settings Power",
+        "classname": "uxd-settings-power"
+      },
+      {
+        "name": "Settings System Daydream",
+        "classname": "uxd-settings-system-daydream"
+      },
+      {
+        "name": "Speaker Phone",
+        "classname": "uxd-speaker-phone"
+      },
+      {
+        "name": "Stop Screen Share",
+        "classname": "uxd-stop-screen-share"
+      },
+      {
+        "name": "Storage",
+        "classname": "uxd-storage"
+      },
+      {
+        "name": "System Update",
+        "classname": "uxd-system-update"
+      },
+      {
+        "name": "Desktop Mac",
+        "classname": "uxd-desktop-mac",
+        "group": "Type"
+      },
+      {
+        "name": "Desktop Windows",
+        "classname": "uxd-desktop-windows",
+        "group": "Type"
+      },
+      {
+        "name": "Devices Other",
+        "classname": "uxd-devices-other",
+        "group": "Type"
+      },
+      {
+        "name": "Devices",
+        "classname": "uxd-devices",
+        "group": "Type"
+      },
+      {
+        "name": "Laptop Chromebook",
+        "classname": "uxd-laptop-chromebook",
+        "group": "Type"
+      },
+      {
+        "name": "Laptop Mac",
+        "classname": "uxd-laptop-mac",
+        "group": "Type"
+      },
+      {
+        "name": "Laptop",
+        "classname": "uxd-laptop",
+        "group": "Type"
+      },
+      {
+        "name": "Phone Android",
+        "classname": "uxd-phone-android",
+        "group": "Type"
+      },
+      {
+        "name": "Phone Iphone",
+        "classname": "uxd-phone-iphone",
+        "group": "Type"
+      },
+      {
+        "name": "Smartphone",
+        "classname": "uxd-smartphone",
+        "group": "Type"
+      },
+      {
+        "name": "Stay Current Landscape",
+        "classname": "uxd-stay-current-landscape",
+        "group": "Type"
+      },
+      {
+        "name": "Tablet Android",
+        "classname": "uxd-tablet-android",
+        "group": "Type"
+      },
+      {
+        "name": "Tablet Mac",
+        "classname": "uxd-tablet-mac",
+        "group": "Type"
+      },
+      {
+        "name": "Tablet",
+        "classname": "uxd-tablet",
+        "group": "Type"
+      },
+      {
+        "name": "Tv",
+        "classname": "uxd-tv",
+        "group": "Type"
+      },
+      {
+        "name": "Watch",
+        "classname": "uxd-watch",
+        "group": "Type"
+      },
+      {
+        "name": "Usb",
+        "classname": "uxd-usb"
+      },
+      {
+        "name": "Vibration",
+        "classname": "uxd-vibration"
+      },
+      {
+        "name": "Wallpaper",
+        "classname": "uxd-wallpaper"
+      }
+    ]
+  },
+  {
+    "category": "Discuss",
+    "icons": [
+      {
+        "name": "Announcement",
+        "classname": "uxd-announcement"
+      },
+      {
+        "name": "Chat Bubble Outline",
+        "classname": "uxd-chat-bubble-outline"
+      },
+      {
+        "name": "Chat Bubble",
+        "classname": "uxd-chat-bubble"
+      },
+      {
+        "name": "Chat",
+        "classname": "uxd-chat"
+      },
+      {
+        "name": "Comment Constructive",
+        "classname": "uxd-comment-constructive"
+      },
+      {
+        "name": "Comment Load",
+        "classname": "uxd-comment-load"
+      },
+      {
+        "name": "Comment Positive",
+        "classname": "uxd-comment-positive"
+      },
+      {
+        "name": "Comment Problem",
+        "classname": "uxd-comment-problem"
+      },
+      {
+        "name": "Comment",
+        "classname": "uxd-comment"
+      },
+      {
+        "name": "Feedback",
+        "classname": "uxd-feedback"
+      },
+      {
+        "name": "Message",
+        "classname": "uxd-message"
+      },
+      {
+        "name": "Mms",
+        "classname": "uxd-mms"
+      },
+      {
+        "name": "Mode Comment",
+        "classname": "uxd-mode-comment"
+      },
+      {
+        "name": "Question Answer",
+        "classname": "uxd-question-answer"
+      },
+      {
+        "name": "Rate Review",
+        "classname": "uxd-rate-review"
+      },
+      {
+        "name": "Sms",
+        "classname": "uxd-sms"
+      },
+      {
+        "name": "Speaker Notes Off",
+        "classname": "uxd-speaker-notes-off"
+      },
+      {
+        "name": "Speaker Notes",
+        "classname": "uxd-speaker-notes"
+      },
+      {
+        "name": "Voice Chat",
+        "classname": "uxd-voice-chat"
+      }
+    ]
+  },
+  {
+    "category": "Editor",
+    "icons": [
+      {
+        "name": "Attach Money",
+        "classname": "uxd-attach-money"
+      },
+      {
+        "name": "Border All",
+        "classname": "uxd-border-all"
+      },
+      {
+        "name": "Border Bottom",
+        "classname": "uxd-border-bottom"
+      },
+      {
+        "name": "Border Clear",
+        "classname": "uxd-border-clear"
+      },
+      {
+        "name": "Border Color",
+        "classname": "uxd-border-color"
+      },
+      {
+        "name": "Border Horizontal",
+        "classname": "uxd-border-horizontal"
+      },
+      {
+        "name": "Border Inner",
+        "classname": "uxd-border-inner"
+      },
+      {
+        "name": "Border Left",
+        "classname": "uxd-border-left"
+      },
+      {
+        "name": "Border Outer",
+        "classname": "uxd-border-outer"
+      },
+      {
+        "name": "Border Right",
+        "classname": "uxd-border-right"
+      },
+      {
+        "name": "Border Style",
+        "classname": "uxd-border-style"
+      },
+      {
+        "name": "Border Top",
+        "classname": "uxd-border-top"
+      },
+      {
+        "name": "Border Vertical",
+        "classname": "uxd-border-vertical"
+      },
+      {
+        "name": "Code",
+        "classname": "uxd-code"
+      },
+      {
+        "name": "Format Align Center",
+        "classname": "uxd-format-align-center"
+      },
+      {
+        "name": "Format Align Justify",
+        "classname": "uxd-format-align-justify"
+      },
+      {
+        "name": "Format Align Left",
+        "classname": "uxd-format-align-left"
+      },
+      {
+        "name": "Format Align Right",
+        "classname": "uxd-format-align-right"
+      },
+      {
+        "name": "Format Bold",
+        "classname": "uxd-format-bold"
+      },
+      {
+        "name": "Format Clear",
+        "classname": "uxd-format-clear"
+      },
+      {
+        "name": "Format Color Fill",
+        "classname": "uxd-format-color-fill"
+      },
+      {
+        "name": "Format Color Reset",
+        "classname": "uxd-format-color-reset"
+      },
+      {
+        "name": "Format Color Text",
+        "classname": "uxd-format-color-text"
+      },
+      {
+        "name": "Format Indent Decrease",
+        "classname": "uxd-format-indent-decrease"
+      },
+      {
+        "name": "Format Indent Increase",
+        "classname": "uxd-format-indent-increase"
+      },
+      {
+        "name": "Format Italic",
+        "classname": "uxd-format-italic"
+      },
+      {
+        "name": "Format Line Spacing",
+        "classname": "uxd-format-line-spacing"
+      },
+      {
+        "name": "Format List Bulleted",
+        "classname": "uxd-format-list-bulleted"
+      },
+      {
+        "name": "Format List Numbered",
+        "classname": "uxd-format-list-numbered"
+      },
+      {
+        "name": "Format Paint",
+        "classname": "uxd-format-paint"
+      },
+      {
+        "name": "Format Quote",
+        "classname": "uxd-format-quote"
+      },
+      {
+        "name": "Format Shapes",
+        "classname": "uxd-format-shapes"
+      },
+      {
+        "name": "Format Size",
+        "classname": "uxd-format-size"
+      },
+      {
+        "name": "Format Strikethrough",
+        "classname": "uxd-format-strikethrough"
+      },
+      {
+        "name": "Format Textdirection L To R",
+        "classname": "uxd-format-textdirection-l-to-r"
+      },
+      {
+        "name": "Format Textdirection R To L",
+        "classname": "uxd-format-textdirection-r-to-l"
+      },
+      {
+        "name": "Format Underlined",
+        "classname": "uxd-format-underlined"
+      },
+      {
+        "name": "Functions",
+        "classname": "uxd-functions"
+      },
+      {
+        "name": "G Translate",
+        "classname": "uxd-g-translate"
+      },
+      {
+        "name": "Highlight",
+        "classname": "uxd-highlight"
+      },
+      {
+        "name": "Insert Emoticon",
+        "classname": "uxd-insert-emoticon"
+      },
+      {
+        "name": "Insert Link",
+        "classname": "uxd-insert-link"
+      },
+      {
+        "name": "Keyboard Capslock",
+        "classname": "uxd-keyboard-capslock"
+      },
+      {
+        "name": "Line Style",
+        "classname": "uxd-line-style"
+      },
+      {
+        "name": "Line Weight",
+        "classname": "uxd-line-weight"
+      },
+      {
+        "name": "Mode Edit",
+        "classname": "uxd-mode-edit"
+      },
+      {
+        "name": "Publish",
+        "classname": "uxd-publish"
+      },
+      {
+        "name": "Settings Ethernet",
+        "classname": "uxd-settings-ethernet"
+      },
+      {
+        "name": "Short Text",
+        "classname": "uxd-short-text"
+      },
+      {
+        "name": "Space Bar",
+        "classname": "uxd-space-bar"
+      },
+      {
+        "name": "Spellcheck",
+        "classname": "uxd-spellcheck"
+      },
+      {
+        "name": "Strikethrough S",
+        "classname": "uxd-strikethrough-s"
+      },
+      {
+        "name": "Text Fields",
+        "classname": "uxd-text-fields"
+      },
+      {
+        "name": "Text Format",
+        "classname": "uxd-text-format"
+      },
+      {
+        "name": "Title",
+        "classname": "uxd-title"
+      },
+      {
+        "name": "Translate",
+        "classname": "uxd-translate"
+      },
+      {
+        "name": "Wrap Text",
+        "classname": "uxd-wrap-text"
+      }
+    ]
+  },
+  {
+    "category": "File",
+    "icons": [
+      {
+        "name": "Archive",
+        "classname": "uxd-archive"
+      },
+      {
+        "name": "Arrow Download",
+        "classname": "uxd-arrow-download"
+      },
+      {
+        "name": "Arrow Upload",
+        "classname": "uxd-arrow-upload"
+      },
+      {
+        "name": "Attach File",
+        "classname": "uxd-attach-file"
+      },
+      {
+        "name": "Attachment",
+        "classname": "uxd-attachment"
+      },
+      {
+        "name": "Cloud Circle",
+        "classname": "uxd-cloud-circle"
+      },
+      {
+        "name": "Cloud Done",
+        "classname": "uxd-cloud-done"
+      },
+      {
+        "name": "Cloud Download",
+        "classname": "uxd-cloud-download"
+      },
+      {
+        "name": "Cloud Off",
+        "classname": "uxd-cloud-off"
+      },
+      {
+        "name": "Cloud Queue",
+        "classname": "uxd-cloud-queue"
+      },
+      {
+        "name": "Cloud Upload",
+        "classname": "uxd-cloud-upload"
+      },
+      {
+        "name": "Cloud",
+        "classname": "uxd-cloud"
+      },
+      {
+        "name": "Create New Folder",
+        "classname": "uxd-create-new-folder"
+      },
+      {
+        "name": "Description",
+        "classname": "uxd-description"
+      },
+      {
+        "name": "Folder Open",
+        "classname": "uxd-folder-open"
+      },
+      {
+        "name": "Folder Shared",
+        "classname": "uxd-folder-shared"
+      },
+      {
+        "name": "Folder Special",
+        "classname": "uxd-folder-special"
+      },
+      {
+        "name": "Folder",
+        "classname": "uxd-folder"
+      },
+      {
+        "name": "Font Download",
+        "classname": "uxd-font-download"
+      },
+      {
+        "name": "Insert Drive File",
+        "classname": "uxd-insert-drive-file"
+      },
+      {
+        "name": "Move To Inbox",
+        "classname": "uxd-move-to-inbox"
+      },
+      {
+        "name": "Note Add",
+        "classname": "uxd-note-add"
+      },
+      {
+        "name": "Perm Media",
+        "classname": "uxd-perm-media"
+      },
+      {
+        "name": "Unarchive",
+        "classname": "uxd-unarchive"
+      }
+    ]
+  },
+  {
+    "category": "Hand",
+    "icons": [
+      {
+        "name": "Handshake",
+        "classname": "uxd-handshake"
+      },
+      {
+        "name": "Pan Tool",
+        "classname": "uxd-pan-tool"
+      },
+      {
+        "name": "Touch App",
+        "classname": "uxd-touch-app"
+      },
+      {
+        "name": "Touch Scan Auto",
+        "classname": "uxd-touch-scan-auto"
+      },
+      {
+        "name": "Touch Scan Manual",
+        "classname": "uxd-touch-scan-manual"
+      },
+      {
+        "name": "Touch Scan",
+        "classname": "uxd-touch-scan"
+      },
+      {
+        "name": "Touch Swipe",
+        "classname": "uxd-touch-swipe"
+      }
+    ]
+  },
+  {
+    "category": "Image",
+    "icons": [
+      {
+        "name": "Add A Photo",
+        "classname": "uxd-add-a-photo"
+      },
+      {
+        "name": "Add To Photos",
+        "classname": "uxd-add-to-photos"
+      },
+      {
+        "name": "Adjust",
+        "classname": "uxd-adjust"
+      },
+      {
+        "name": "Aspect Ratio",
+        "classname": "uxd-aspect-ratio"
+      },
+      {
+        "name": "Assistant",
+        "classname": "uxd-assistant"
+      },
+      {
+        "name": "Blur Circular",
+        "classname": "uxd-blur-circular",
+        "group": "Blur"
+      },
+      {
+        "name": "Blur Linear",
+        "classname": "uxd-blur-linear",
+        "group": "Blur"
+      },
+      {
+        "name": "Blur Off",
+        "classname": "uxd-blur-off",
+        "group": "Blur"
+      },
+      {
+        "name": "Blur On",
+        "classname": "uxd-blur-on",
+        "group": "Blur"
+      },
+      {
+        "name": "Brightness 1",
+        "classname": "uxd-brightness-1",
+        "group": "Brightness"
+      },
+      {
+        "name": "Brightness 2",
+        "classname": "uxd-brightness-2",
+        "group": "Brightness"
+      },
+      {
+        "name": "Brightness 3",
+        "classname": "uxd-brightness-3",
+        "group": "Brightness"
+      },
+      {
+        "name": "Brightness 4",
+        "classname": "uxd-brightness-4",
+        "group": "Brightness"
+      },
+      {
+        "name": "Brightness 5",
+        "classname": "uxd-brightness-5",
+        "group": "Brightness"
+      },
+      {
+        "name": "Brightness 6",
+        "classname": "uxd-brightness-6",
+        "group": "Brightness"
+      },
+      {
+        "name": "Brightness 7",
+        "classname": "uxd-brightness-7",
+        "group": "Brightness"
+      },
+      {
+        "name": "Brightness Auto",
+        "classname": "uxd-brightness-auto",
+        "group": "Brightness"
+      },
+      {
+        "name": "Broken Image",
+        "classname": "uxd-broken-image"
+      },
+      {
+        "name": "Brush",
+        "classname": "uxd-brush"
+      },
+      {
+        "name": "Burst Mode",
+        "classname": "uxd-burst-mode"
+      },
+      {
+        "name": "Camera Enhance",
+        "classname": "uxd-camera-enhance"
+      },
+      {
+        "name": "Camera Front",
+        "classname": "uxd-camera-front"
+      },
+      {
+        "name": "Camera Rear",
+        "classname": "uxd-camera-rear"
+      },
+      {
+        "name": "Camera Roll",
+        "classname": "uxd-camera-roll"
+      },
+      {
+        "name": "Camera",
+        "classname": "uxd-camera"
+      },
+      {
+        "name": "Center Focus Strong",
+        "classname": "uxd-center-focus-strong"
+      },
+      {
+        "name": "Center Focus Weak",
+        "classname": "uxd-center-focus-weak"
+      },
+      {
+        "name": "Collections Bookmark",
+        "classname": "uxd-collections-bookmark"
+      },
+      {
+        "name": "Collections",
+        "classname": "uxd-collections"
+      },
+      {
+        "name": "Color Lens",
+        "classname": "uxd-color-lens"
+      },
+      {
+        "name": "Colorize",
+        "classname": "uxd-colorize"
+      },
+      {
+        "name": "Compare",
+        "classname": "uxd-compare"
+      },
+      {
+        "name": "Control Point Duplicate",
+        "classname": "uxd-control-point-duplicate"
+      },
+      {
+        "name": "Crop 16 9",
+        "classname": "uxd-crop-16-9",
+        "group": "crop"
+      },
+      {
+        "name": "Crop 3 2",
+        "classname": "uxd-crop-3-2",
+        "group": "crop"
+      },
+      {
+        "name": "Crop 5 4",
+        "classname": "uxd-crop-5-4",
+        "group": "crop"
+      },
+      {
+        "name": "Crop 7 5",
+        "classname": "uxd-crop-7-5",
+        "group": "crop"
+      },
+      {
+        "name": "Crop Din",
+        "classname": "uxd-crop-din",
+        "group": "crop"
+      },
+      {
+        "name": "Crop Free",
+        "classname": "uxd-crop-free",
+        "group": "crop"
+      },
+      {
+        "name": "Crop Original",
+        "classname": "uxd-crop-original",
+        "group": "crop"
+      },
+      {
+        "name": "Crop Portrait",
+        "classname": "uxd-crop-portrait",
+        "group": "crop"
+      },
+      {
+        "name": "Crop Rotate",
+        "classname": "uxd-crop-rotate",
+        "group": "crop"
+      },
+      {
+        "name": "Crop Square",
+        "classname": "uxd-crop-square",
+        "group": "crop"
+      },
+      {
+        "name": "Crop",
+        "classname": "uxd-crop"
+      },
+      {
+        "name": "Details",
+        "classname": "uxd-details"
+      },
+      {
+        "name": "Exposure",
+        "classname": "uxd-exposure"
+      },
+      {
+        "name": "Filter B And W",
+        "classname": "uxd-filter-b-and-w",
+        "group": "Filter"
+      },
+      {
+        "name": "Filter Center Focus",
+        "classname": "uxd-filter-center-focus",
+        "group": "Filter"
+      },
+      {
+        "name": "Filter Drama",
+        "classname": "uxd-filter-drama",
+        "group": "Filter"
+      },
+      {
+        "name": "Filter Frames",
+        "classname": "uxd-filter-frames",
+        "group": "Filter"
+      },
+      {
+        "name": "Filter Hdr",
+        "classname": "uxd-filter-hdr",
+        "group": "Filter"
+      },
+      {
+        "name": "Filter None",
+        "classname": "uxd-filter-none",
+        "group": "Filter"
+      },
+      {
+        "name": "Filter Tilt Shift",
+        "classname": "uxd-filter-tilt-shift",
+        "group": "Filter"
+      },
+      {
+        "name": "Filter Vintage",
+        "classname": "uxd-filter-vintage",
+        "group": "Filter"
+      },
+      {
+        "name": "Filter",
+        "classname": "uxd-filter",
+        "group": "Filter"
+      },
+      {
+        "name": "Flare",
+        "classname": "uxd-flare"
+      },
+      {
+        "name": "Flash Auto",
+        "classname": "uxd-flash-auto"
+      },
+      {
+        "name": "Flash Off",
+        "classname": "uxd-flash-off"
+      },
+      {
+        "name": "Flash On",
+        "classname": "uxd-flash-on"
+      },
+      {
+        "name": "Flip",
+        "classname": "uxd-flip"
+      },
+      {
+        "name": "Gradient",
+        "classname": "uxd-gradient"
+      },
+      {
+        "name": "Grain",
+        "classname": "uxd-grain"
+      },
+      {
+        "name": "Grid Off",
+        "classname": "uxd-grid-off"
+      },
+      {
+        "name": "Grid On",
+        "classname": "uxd-grid-on"
+      },
+      {
+        "name": "Hdr Off",
+        "classname": "uxd-hdr-off",
+        "group": "HDR"
+      },
+      {
+        "name": "Hdr On",
+        "classname": "uxd-hdr-on",
+        "group": "HDR"
+      },
+      {
+        "name": "Hdr Strong",
+        "classname": "uxd-hdr-strong",
+        "group": "HDR"
+      },
+      {
+        "name": "Hdr Weak",
+        "classname": "uxd-hdr-weak",
+        "group": "HDR"
+      },
+      {
+        "name": "Healing",
+        "classname": "uxd-healing"
+      },
+      {
+        "name": "Image Aspect Ratio",
+        "classname": "uxd-image-aspect-ratio"
+      },
+      {
+        "name": "Image",
+        "classname": "uxd-image"
+      },
+      {
+        "name": "Invert Colors Off",
+        "classname": "uxd-invert-colors-off"
+      },
+      {
+        "name": "Invert Colors",
+        "classname": "uxd-invert-colors"
+      },
+      {
+        "name": "Iso",
+        "classname": "uxd-iso"
+      },
+      {
+        "name": "Landscape",
+        "classname": "uxd-landscape"
+      },
+      {
+        "name": "Leak Add",
+        "classname": "uxd-leak-add"
+      },
+      {
+        "name": "Leak Remove",
+        "classname": "uxd-leak-remove"
+      },
+      {
+        "name": "Lens",
+        "classname": "uxd-lens"
+      },
+      {
+        "name": "Linked Camera",
+        "classname": "uxd-linked-camera"
+      },
+      {
+        "name": "Loupe",
+        "classname": "uxd-loupe"
+      },
+      {
+        "name": "Monochrome Photos",
+        "classname": "uxd-monochrome-photos"
+      },
+      {
+        "name": "Movie Creation",
+        "classname": "uxd-movie-creation"
+      },
+      {
+        "name": "Movie Filter",
+        "classname": "uxd-movie-filter"
+      },
+      {
+        "name": "Nature People",
+        "classname": "uxd-nature-people"
+      },
+      {
+        "name": "Nature",
+        "classname": "uxd-nature"
+      },
+      {
+        "name": "Exposure Neg 1",
+        "classname": "uxd-exposure-neg-1",
+        "group": "Numbers"
+      },
+      {
+        "name": "Exposure Neg 2",
+        "classname": "uxd-exposure-neg-2",
+        "group": "Numbers"
+      },
+      {
+        "name": "Exposure Plus 1",
+        "classname": "uxd-exposure-plus-1",
+        "group": "Numbers"
+      },
+      {
+        "name": "Exposure Plus 2",
+        "classname": "uxd-exposure-plus-2",
+        "group": "Numbers"
+      },
+      {
+        "name": "Exposure Zero",
+        "classname": "uxd-exposure-zero",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 1",
+        "classname": "uxd-filter-1",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 2",
+        "classname": "uxd-filter-2",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 3",
+        "classname": "uxd-filter-3",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 4",
+        "classname": "uxd-filter-4",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 5",
+        "classname": "uxd-filter-5",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 6",
+        "classname": "uxd-filter-6",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 7",
+        "classname": "uxd-filter-7",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 8",
+        "classname": "uxd-filter-8",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 9 Plus",
+        "classname": "uxd-filter-9-plus",
+        "group": "Numbers"
+      },
+      {
+        "name": "Filter 9",
+        "classname": "uxd-filter-9",
+        "group": "Numbers"
+      },
+      {
+        "name": "Looks 3",
+        "classname": "uxd-looks-3",
+        "group": "Numbers"
+      },
+      {
+        "name": "Looks 4",
+        "classname": "uxd-looks-4",
+        "group": "Numbers"
+      },
+      {
+        "name": "Looks 5",
+        "classname": "uxd-looks-5",
+        "group": "Numbers"
+      },
+      {
+        "name": "Looks 6",
+        "classname": "uxd-looks-6",
+        "group": "Numbers"
+      },
+      {
+        "name": "Looks One",
+        "classname": "uxd-looks-one",
+        "group": "Numbers"
+      },
+      {
+        "name": "Looks Two",
+        "classname": "uxd-looks-two",
+        "group": "Numbers"
+      },
+      {
+        "name": "Looks",
+        "classname": "uxd-looks",
+        "group": "Numbers"
+      },
+      {
+        "name": "Timer 10",
+        "classname": "uxd-timer-10",
+        "group": "Numbers"
+      },
+      {
+        "name": "Timer 3",
+        "classname": "uxd-timer-3",
+        "group": "Numbers"
+      },
+      {
+        "name": "Opacity",
+        "classname": "uxd-opacity"
+      },
+      {
+        "name": "Palette",
+        "classname": "uxd-palette"
+      },
+      {
+        "name": "Panorama Fish Eye",
+        "classname": "uxd-panorama-fish-eye"
+      },
+      {
+        "name": "Panorama Horizontal",
+        "classname": "uxd-panorama-horizontal"
+      },
+      {
+        "name": "Panorama Vertical",
+        "classname": "uxd-panorama-vertical"
+      },
+      {
+        "name": "Panorama Wide Angle",
+        "classname": "uxd-panorama-wide-angle"
+      },
+      {
+        "name": "Panorama",
+        "classname": "uxd-panorama"
+      },
+      {
+        "name": "Photo Album",
+        "classname": "uxd-photo-album"
+      },
+      {
+        "name": "Photo Camera",
+        "classname": "uxd-photo-camera"
+      },
+      {
+        "name": "Photo Filter",
+        "classname": "uxd-photo-filter"
+      },
+      {
+        "name": "Photo Library",
+        "classname": "uxd-photo-library"
+      },
+      {
+        "name": "Photo Size Select Large",
+        "classname": "uxd-photo-size-select-large"
+      },
+      {
+        "name": "Photo Size Select Small",
+        "classname": "uxd-photo-size-select-small"
+      },
+      {
+        "name": "Picture As Pdf",
+        "classname": "uxd-picture-as-pdf"
+      },
+      {
+        "name": "Portrait",
+        "classname": "uxd-portrait"
+      },
+      {
+        "name": "Rotate 90 Degrees Ccw",
+        "classname": "uxd-rotate-90-degrees-ccw"
+      },
+      {
+        "name": "Rotate Left",
+        "classname": "uxd-rotate-left"
+      },
+      {
+        "name": "Rotate Right",
+        "classname": "uxd-rotate-right"
+      },
+      {
+        "name": "Rounded Corner",
+        "classname": "uxd-rounded-corner"
+      },
+      {
+        "name": "Settings Brightness",
+        "classname": "uxd-settings-brightness"
+      },
+      {
+        "name": "Slideshow",
+        "classname": "uxd-slideshow"
+      },
+      {
+        "name": "Straighten",
+        "classname": "uxd-straighten"
+      },
+      {
+        "name": "Style",
+        "classname": "uxd-style"
+      },
+      {
+        "name": "Switch Camera",
+        "classname": "uxd-switch-camera"
+      },
+      {
+        "name": "Switch Video",
+        "classname": "uxd-switch-video"
+      },
+      {
+        "name": "Texture",
+        "classname": "uxd-texture"
+      },
+      {
+        "name": "Tonality",
+        "classname": "uxd-tonality"
+      },
+      {
+        "name": "Transform",
+        "classname": "uxd-transform"
+      },
+      {
+        "name": "Vignette",
+        "classname": "uxd-vignette"
+      },
+      {
+        "name": "Wb Auto",
+        "classname": "uxd-wb-auto",
+        "group": "White-balance"
+      },
+      {
+        "name": "Wb Incandescent",
+        "classname": "uxd-wb-incandescent",
+        "group": "White-balance"
+      },
+      {
+        "name": "Wb Iridescent",
+        "classname": "uxd-wb-iridescent",
+        "group": "White-balance"
+      },
+      {
+        "name": "Wb Sunny",
+        "classname": "uxd-wb-sunny",
+        "group": "White-balance"
+      }
+    ]
+  },
+  {
+    "category": "Interface",
+    "icons": [
+      {
+        "name": "All Out",
+        "classname": "uxd-all-out"
+      },
+      {
+        "name": "Autorenew",
+        "classname": "uxd-autorenew"
+      },
+      {
+        "name": "Cached",
+        "classname": "uxd-cached"
+      },
+      {
+        "name": "Create",
+        "classname": "uxd-create"
+      },
+      {
+        "name": "Delete Forever",
+        "classname": "uxd-delete-forever"
+      },
+      {
+        "name": "Delete Sweep",
+        "classname": "uxd-delete-sweep"
+      },
+      {
+        "name": "Delete",
+        "classname": "uxd-delete"
+      },
+      {
+        "name": "Drag Handle",
+        "classname": "uxd-drag-handle"
+      },
+      {
+        "name": "Exit To App",
+        "classname": "uxd-exit-to-app"
+      },
+      {
+        "name": "Find In Page",
+        "classname": "uxd-find-in-page"
+      },
+      {
+        "name": "Find Replace",
+        "classname": "uxd-find-replace"
+      },
+      {
+        "name": "Flag",
+        "classname": "uxd-flag"
+      },
+      {
+        "name": "Flip To Back",
+        "classname": "uxd-flip-to-back"
+      },
+      {
+        "name": "Flip To Front",
+        "classname": "uxd-flip-to-front"
+      },
+      {
+        "name": "Fullscreen Exit",
+        "classname": "uxd-fullscreen-exit"
+      },
+      {
+        "name": "Fullscreen",
+        "classname": "uxd-fullscreen"
+      },
+      {
+        "name": "Input",
+        "classname": "uxd-input"
+      },
+      {
+        "name": "Interface Copy",
+        "classname": "uxd-interface-copy"
+      },
+      {
+        "name": "Interface Cut",
+        "classname": "uxd-interface-cut"
+      },
+      {
+        "name": "Launch",
+        "classname": "uxd-launch"
+      },
+      {
+        "name": "Loop",
+        "classname": "uxd-loop"
+      },
+      {
+        "name": "Open In Browser",
+        "classname": "uxd-open-in-browser"
+      },
+      {
+        "name": "Open In New",
+        "classname": "uxd-open-in-new"
+      },
+      {
+        "name": "Pageview",
+        "classname": "uxd-pageview"
+      },
+      {
+        "name": "Power Settings New",
+        "classname": "uxd-power-settings-new"
+      },
+      {
+        "name": "Print",
+        "classname": "uxd-print"
+      },
+      {
+        "name": "Redo",
+        "classname": "uxd-redo"
+      },
+      {
+        "name": "Refresh",
+        "classname": "uxd-refresh"
+      },
+      {
+        "name": "Replay",
+        "classname": "uxd-replay"
+      },
+      {
+        "name": "Reply All",
+        "classname": "uxd-reply-all"
+      },
+      {
+        "name": "Reply",
+        "classname": "uxd-reply"
+      },
+      {
+        "name": "Restore Page",
+        "classname": "uxd-restore-page"
+      },
+      {
+        "name": "Search",
+        "classname": "uxd-search"
+      },
+      {
+        "name": "Select All",
+        "classname": "uxd-select-all"
+      },
+      {
+        "name": "Send",
+        "classname": "uxd-send"
+      },
+      {
+        "name": "Settings Applications",
+        "classname": "uxd-settings-applications"
+      },
+      {
+        "name": "Settings",
+        "classname": "uxd-settings"
+      },
+      {
+        "name": "Share",
+        "classname": "uxd-share"
+      },
+      {
+        "name": "Sync Disabled",
+        "classname": "uxd-sync-disabled"
+      },
+      {
+        "name": "Sync",
+        "classname": "uxd-sync"
+      },
+      {
+        "name": "System Update Alt",
+        "classname": "uxd-system-update-alt"
+      },
+      {
+        "name": "Tab Unselected",
+        "classname": "uxd-tab-unselected"
+      },
+      {
+        "name": "Tab",
+        "classname": "uxd-tab"
+      },
+      {
+        "name": "Tune",
+        "classname": "uxd-tune"
+      },
+      {
+        "name": "Undo",
+        "classname": "uxd-undo"
+      },
+      {
+        "name": "Visibility Off",
+        "classname": "uxd-visibility-off"
+      },
+      {
+        "name": "Visibility",
+        "classname": "uxd-visibility"
+      },
+      {
+        "name": "Youtube Searched For",
+        "classname": "uxd-youtube-searched-for"
+      },
+      {
+        "name": "Zoom In",
+        "classname": "uxd-zoom-in"
+      },
+      {
+        "name": "Zoom Out",
+        "classname": "uxd-zoom-out"
+      }
+    ]
+  },
+  {
+    "category": "Layout",
+    "icons": [
+      {
+        "name": "Attribute Description",
+        "classname": "uxd-attribute-description"
+      },
+      {
+        "name": "Attribute Title",
+        "classname": "uxd-attribute-title"
+      },
+      {
+        "name": "Chrome Reader Mode",
+        "classname": "uxd-chrome-reader-mode"
+      },
+      {
+        "name": "Dashboard",
+        "classname": "uxd-dashboard"
+      },
+      {
+        "name": "Dns",
+        "classname": "uxd-dns"
+      },
+      {
+        "name": "Pages",
+        "classname": "uxd-pages"
+      },
+      {
+        "name": "Picture In Picture Alt",
+        "classname": "uxd-picture-in-picture-alt"
+      },
+      {
+        "name": "Picture In Picture",
+        "classname": "uxd-picture-in-picture"
+      },
+      {
+        "name": "View Agenda",
+        "classname": "uxd-view-agenda"
+      },
+      {
+        "name": "View Array",
+        "classname": "uxd-view-array"
+      },
+      {
+        "name": "View Carousel",
+        "classname": "uxd-view-carousel"
+      },
+      {
+        "name": "View Column",
+        "classname": "uxd-view-column"
+      },
+      {
+        "name": "View Comfy",
+        "classname": "uxd-view-comfy"
+      },
+      {
+        "name": "View Compact",
+        "classname": "uxd-view-compact"
+      },
+      {
+        "name": "View Day",
+        "classname": "uxd-view-day"
+      },
+      {
+        "name": "View Module",
+        "classname": "uxd-view-module"
+      },
+      {
+        "name": "View Quilt",
+        "classname": "uxd-view-quilt"
+      },
+      {
+        "name": "View Stream",
+        "classname": "uxd-view-stream"
+      },
+      {
+        "name": "View Week",
+        "classname": "uxd-view-week"
+      },
+      {
+        "name": "Widgets",
+        "classname": "uxd-widgets"
+      }
+    ]
+  },
+  {
+    "category": "Map",
+    "icons": [
+      {
+        "name": "Ac Unit",
+        "classname": "uxd-ac-unit"
+      },
+      {
+        "name": "Add Location",
+        "classname": "uxd-add-location",
+        "group": "Actions"
+      },
+      {
+        "name": "Bad Address",
+        "classname": "uxd-bad-address",
+        "group": "Actions"
+      },
+      {
+        "name": "Bad Gps",
+        "classname": "uxd-bad-gps",
+        "group": "Actions"
+      },
+      {
+        "name": "Directions",
+        "classname": "uxd-directions",
+        "group": "Actions"
+      },
+      {
+        "name": "Edit Location",
+        "classname": "uxd-edit-location",
+        "group": "Actions"
+      },
+      {
+        "name": "Explore",
+        "classname": "uxd-explore",
+        "group": "Actions"
+      },
+      {
+        "name": "Gps Battery",
+        "classname": "uxd-gps-battery",
+        "group": "Actions"
+      },
+      {
+        "name": "Gps Conf Low",
+        "classname": "uxd-gps-conf-low",
+        "group": "Actions"
+      },
+      {
+        "name": "Gps Fixed",
+        "classname": "uxd-gps-fixed",
+        "group": "Actions"
+      },
+      {
+        "name": "Gps Not Fixed",
+        "classname": "uxd-gps-not-fixed",
+        "group": "Actions"
+      },
+      {
+        "name": "Gps Stale",
+        "classname": "uxd-gps-stale",
+        "group": "Actions"
+      },
+      {
+        "name": "Gps Waiting",
+        "classname": "uxd-gps-waiting",
+        "group": "Actions"
+      },
+      {
+        "name": "History Locations",
+        "classname": "uxd-history-locations",
+        "group": "Actions"
+      },
+      {
+        "name": "Layers Clear",
+        "classname": "uxd-layers-clear",
+        "group": "Actions"
+      },
+      {
+        "name": "Layers",
+        "classname": "uxd-layers",
+        "group": "Actions"
+      },
+      {
+        "name": "Location Disabled",
+        "classname": "uxd-location-disabled",
+        "group": "Actions"
+      },
+      {
+        "name": "Location Off",
+        "classname": "uxd-location-off",
+        "group": "Actions"
+      },
+      {
+        "name": "Location Verified",
+        "classname": "uxd-location-verified",
+        "group": "Actions"
+      },
+      {
+        "name": "Map Edit",
+        "classname": "uxd-map-edit",
+        "group": "Actions"
+      },
+      {
+        "name": "Map",
+        "classname": "uxd-map",
+        "group": "Actions"
+      },
+      {
+        "name": "Navigation",
+        "classname": "uxd-navigation",
+        "group": "Actions"
+      },
+      {
+        "name": "Near Me",
+        "classname": "uxd-near-me",
+        "group": "Actions"
+      },
+      {
+        "name": "Person Pin Circle",
+        "classname": "uxd-person-pin-circle",
+        "group": "Actions"
+      },
+      {
+        "name": "Person Pin",
+        "classname": "uxd-person-pin",
+        "group": "Actions"
+      },
+      {
+        "name": "Pin Drop",
+        "classname": "uxd-pin-drop",
+        "group": "Actions"
+      },
+      {
+        "name": "Place",
+        "classname": "uxd-place",
+        "group": "Actions"
+      },
+      {
+        "name": "All Inclusive",
+        "classname": "uxd-all-inclusive"
+      },
+      {
+        "name": "Child Care",
+        "classname": "uxd-child-care",
+        "group": "Amenities"
+      },
+      {
+        "name": "Child Friendly",
+        "classname": "uxd-child-friendly",
+        "group": "Amenities"
+      },
+      {
+        "name": "Ev Station",
+        "classname": "uxd-ev-station",
+        "group": "Amenities"
+      },
+      {
+        "name": "Fitness Center",
+        "classname": "uxd-fitness-center",
+        "group": "Amenities"
+      },
+      {
+        "name": "Hot Tub",
+        "classname": "uxd-hot-tub",
+        "group": "Amenities"
+      },
+      {
+        "name": "Kitchen",
+        "classname": "uxd-kitchen",
+        "group": "Amenities"
+      },
+      {
+        "name": "Pets",
+        "classname": "uxd-pets",
+        "group": "Amenities"
+      },
+      {
+        "name": "Pool",
+        "classname": "uxd-pool",
+        "group": "Amenities"
+      },
+      {
+        "name": "Rowing",
+        "classname": "uxd-rowing",
+        "group": "Amenities"
+      },
+      {
+        "name": "Rv Hookup",
+        "classname": "uxd-rv-hookup",
+        "group": "Amenities"
+      },
+      {
+        "name": "Satellite",
+        "classname": "uxd-satellite",
+        "group": "Amenities"
+      },
+      {
+        "name": "Smoke Free",
+        "classname": "uxd-smoke-free",
+        "group": "Amenities"
+      },
+      {
+        "name": "Smoking Rooms",
+        "classname": "uxd-smoking-rooms",
+        "group": "Amenities"
+      },
+      {
+        "name": "Spa",
+        "classname": "uxd-spa",
+        "group": "Amenities"
+      },
+      {
+        "name": "Beach Access",
+        "classname": "uxd-beach-access"
+      },
+      {
+        "name": "Beenhere",
+        "classname": "uxd-beenhere"
+      },
+      {
+        "name": "Account Balance",
+        "classname": "uxd-account-balance",
+        "group": "Building"
+      },
+      {
+        "name": "Business",
+        "classname": "uxd-business",
+        "group": "Building"
+      },
+      {
+        "name": "Domain",
+        "classname": "uxd-domain",
+        "group": "Building"
+      },
+      {
+        "name": "Home",
+        "classname": "uxd-home",
+        "group": "Building"
+      },
+      {
+        "name": "Local Convenience Store",
+        "classname": "uxd-local-convenience-store",
+        "group": "Building"
+      },
+      {
+        "name": "Location City",
+        "classname": "uxd-location-city",
+        "group": "Building"
+      },
+      {
+        "name": "Store",
+        "classname": "uxd-store",
+        "group": "Building"
+      },
+      {
+        "name": "Business Center",
+        "classname": "uxd-business-center"
+      },
+      {
+        "name": "Casino",
+        "classname": "uxd-casino"
+      },
+      {
+        "name": "Directions Bike",
+        "classname": "uxd-directions-bike"
+      },
+      {
+        "name": "Directions Run",
+        "classname": "uxd-directions-run"
+      },
+      {
+        "name": "Directions Walk",
+        "classname": "uxd-directions-walk"
+      },
+      {
+        "name": "Golf Course",
+        "classname": "uxd-golf-course"
+      },
+      {
+        "name": "Hotel",
+        "classname": "uxd-hotel"
+      },
+      {
+        "name": "Local Activity",
+        "classname": "uxd-local-activity",
+        "group": "Local"
+      },
+      {
+        "name": "Local Atm",
+        "classname": "uxd-local-atm",
+        "group": "Local"
+      },
+      {
+        "name": "Local Bar",
+        "classname": "uxd-local-bar",
+        "group": "Local"
+      },
+      {
+        "name": "Local Cafe",
+        "classname": "uxd-local-cafe",
+        "group": "Local"
+      },
+      {
+        "name": "Local Drink",
+        "classname": "uxd-local-drink",
+        "group": "Local"
+      },
+      {
+        "name": "Local Florist",
+        "classname": "uxd-local-florist",
+        "group": "Local"
+      },
+      {
+        "name": "Local Gas Station",
+        "classname": "uxd-local-gas-station",
+        "group": "Local"
+      },
+      {
+        "name": "Local Grocery Store",
+        "classname": "uxd-local-grocery-store",
+        "group": "Local"
+      },
+      {
+        "name": "Local Hospital",
+        "classname": "uxd-local-hospital",
+        "group": "Local"
+      },
+      {
+        "name": "Local Hotel",
+        "classname": "uxd-local-hotel",
+        "group": "Local"
+      },
+      {
+        "name": "Local Laundry Service",
+        "classname": "uxd-local-laundry-service",
+        "group": "Local"
+      },
+      {
+        "name": "Local Library",
+        "classname": "uxd-local-library",
+        "group": "Local"
+      },
+      {
+        "name": "Local Mall",
+        "classname": "uxd-local-mall",
+        "group": "Local"
+      },
+      {
+        "name": "Local Offer",
+        "classname": "uxd-local-offer",
+        "group": "Local"
+      },
+      {
+        "name": "Local Parking",
+        "classname": "uxd-local-parking",
+        "group": "Local"
+      },
+      {
+        "name": "Local Pharmacy",
+        "classname": "uxd-local-pharmacy",
+        "group": "Local"
+      },
+      {
+        "name": "Local Pizza",
+        "classname": "uxd-local-pizza",
+        "group": "Local"
+      },
+      {
+        "name": "Local Play",
+        "classname": "uxd-local-play",
+        "group": "Local"
+      },
+      {
+        "name": "Restaurant Menu",
+        "classname": "uxd-restaurant-menu"
+      },
+      {
+        "name": "Restaurant",
+        "classname": "uxd-restaurant"
+      },
+      {
+        "name": "Room Service",
+        "classname": "uxd-room-service"
+      },
+      {
+        "name": "Streetview",
+        "classname": "uxd-streetview"
+      },
+      {
+        "name": "Subway",
+        "classname": "uxd-subway"
+      },
+      {
+        "name": "Terrain",
+        "classname": "uxd-terrain"
+      },
+      {
+        "name": "Toll",
+        "classname": "uxd-toll"
+      },
+      {
+        "name": "Traffic",
+        "classname": "uxd-traffic"
+      },
+      {
+        "name": "Transfer Within A Station",
+        "classname": "uxd-transfer-within-a-station"
+      },
+      {
+        "name": "Asc",
+        "classname": "uxd-asc",
+        "group": "Ups"
+      },
+      {
+        "name": "Center",
+        "classname": "uxd-center",
+        "group": "Ups"
+      },
+      {
+        "name": "Cpu Alt",
+        "classname": "uxd-cpu-alt",
+        "group": "Ups"
+      },
+      {
+        "name": "Cpx Alt",
+        "classname": "uxd-cpx-alt",
+        "group": "Ups"
+      },
+      {
+        "name": "Csl Alt",
+        "classname": "uxd-csl-alt",
+        "group": "Ups"
+      },
+      {
+        "name": "Drop Off",
+        "classname": "uxd-drop-off",
+        "group": "Ups"
+      },
+      {
+        "name": "Dropship Alt",
+        "classname": "uxd-dropship-alt",
+        "group": "Ups"
+      },
+      {
+        "name": "Elevator",
+        "classname": "uxd-elevator",
+        "group": "Ups"
+      },
+      {
+        "name": "Freight",
+        "classname": "uxd-freight",
+        "group": "Ups"
+      },
+      {
+        "name": "Hangar",
+        "classname": "uxd-hangar",
+        "group": "Ups"
+      },
+      {
+        "name": "Hub",
+        "classname": "uxd-hub",
+        "group": "Ups"
+      },
+      {
+        "name": "Inbound Hub",
+        "classname": "uxd-inbound-hub",
+        "group": "Ups"
+      },
+      {
+        "name": "Outbound Hub",
+        "classname": "uxd-outbound-hub",
+        "group": "Ups"
+      },
+      {
+        "name": "Parking Lot",
+        "classname": "uxd-parking-lot",
+        "group": "Ups"
+      },
+      {
+        "name": "Pdc Station",
+        "classname": "uxd-pdc-station",
+        "group": "Ups"
+      },
+      {
+        "name": "Road",
+        "classname": "uxd-road",
+        "group": "Ups"
+      },
+      {
+        "name": "Sdf Map",
+        "classname": "uxd-sdf-map",
+        "group": "Ups"
+      },
+      {
+        "name": "Stairs",
+        "classname": "uxd-stairs",
+        "group": "Ups"
+      },
+      {
+        "name": "Terminal",
+        "classname": "uxd-terminal",
+        "group": "Ups"
+      },
+      {
+        "name": "Trailer Yard",
+        "classname": "uxd-trailer-yard",
+        "group": "Ups"
+      }
+    ]
+  },
+  {
+    "category": "Menu",
+    "icons": [
+      {
+        "name": "Apps",
+        "classname": "uxd-apps"
+      },
+      {
+        "name": "Menu",
+        "classname": "uxd-menu"
+      },
+      {
+        "name": "More Horiz",
+        "classname": "uxd-more-horiz"
+      },
+      {
+        "name": "More Vert",
+        "classname": "uxd-more-vert"
+      }
+    ]
+  },
+  {
+    "category": "Misc",
+    "icons": [
+      {
+        "name": "Change History",
+        "classname": "uxd-change-history"
+      },
+      {
+        "name": "Gesture",
+        "classname": "uxd-gesture"
+      },
+      {
+        "name": "Next Week",
+        "classname": "uxd-next-week"
+      }
+    ]
+  },
+  {
+    "category": "Object",
+    "icons": [
+      {
+        "name": "Bug Report",
+        "classname": "uxd-bug-report"
+      },
+      {
+        "name": "Build",
+        "classname": "uxd-build"
+      },
+      {
+        "name": "Cake",
+        "classname": "uxd-cake"
+      },
+      {
+        "name": "Card Travel",
+        "classname": "uxd-card-travel"
+      },
+      {
+        "name": "Confirmation Number",
+        "classname": "uxd-confirmation-number"
+      },
+      {
+        "name": "Datasource",
+        "classname": "uxd-datasource"
+      },
+      {
+        "name": "Drafts",
+        "classname": "uxd-drafts"
+      },
+      {
+        "name": "Enhanced Encryption",
+        "classname": "uxd-enhanced-encryption"
+      },
+      {
+        "name": "Event Seat",
+        "classname": "uxd-event-seat"
+      },
+      {
+        "name": "Extension",
+        "classname": "uxd-extension"
+      },
+      {
+        "name": "Fingerprint",
+        "classname": "uxd-fingerprint"
+      },
+      {
+        "name": "Gavel",
+        "classname": "uxd-gavel"
+      },
+      {
+        "name": "Https",
+        "classname": "uxd-https"
+      },
+      {
+        "name": "Import Contacts",
+        "classname": "uxd-import-contacts"
+      },
+      {
+        "name": "Inbox",
+        "classname": "uxd-inbox"
+      },
+      {
+        "name": "Label Outline",
+        "classname": "uxd-label-outline"
+      },
+      {
+        "name": "Label",
+        "classname": "uxd-label"
+      },
+      {
+        "name": "Language",
+        "classname": "uxd-language"
+      },
+      {
+        "name": "Lightbulb Outline",
+        "classname": "uxd-lightbulb-outline"
+      },
+      {
+        "name": "Lock Open Alt",
+        "classname": "uxd-lock-open-alt"
+      },
+      {
+        "name": "Lock Open",
+        "classname": "uxd-lock-open"
+      },
+      {
+        "name": "Lock Outline",
+        "classname": "uxd-lock-outline"
+      },
+      {
+        "name": "Lock",
+        "classname": "uxd-lock"
+      },
+      {
+        "name": "Mail Outline",
+        "classname": "uxd-mail-outline"
+      },
+      {
+        "name": "Mail",
+        "classname": "uxd-mail"
+      },
+      {
+        "name": "Markunread Mailbox",
+        "classname": "uxd-markunread-mailbox"
+      },
+      {
+        "name": "Memory",
+        "classname": "uxd-memory"
+      },
+      {
+        "name": "More",
+        "classname": "uxd-more"
+      },
+      {
+        "name": "No Encryption",
+        "classname": "uxd-no-encryption"
+      },
+      {
+        "name": "Public",
+        "classname": "uxd-public"
+      },
+      {
+        "name": "Router",
+        "classname": "uxd-router"
+      },
+      {
+        "name": "Save",
+        "classname": "uxd-save"
+      },
+      {
+        "name": "Scanner",
+        "classname": "uxd-scanner"
+      },
+      {
+        "name": "School",
+        "classname": "uxd-school"
+      },
+      {
+        "name": "Security",
+        "classname": "uxd-security"
+      },
+      {
+        "name": "Settings Input Component",
+        "classname": "uxd-settings-input-component"
+      },
+      {
+        "name": "Settings Input Hdmi",
+        "classname": "uxd-settings-input-hdmi"
+      },
+      {
+        "name": "Settings Remote",
+        "classname": "uxd-settings-remote"
+      },
+      {
+        "name": "Toys",
+        "classname": "uxd-toys"
+      },
+      {
+        "name": "Videogame Asset",
+        "classname": "uxd-videogame-asset"
+      },
+      {
+        "name": "Voicemail",
+        "classname": "uxd-voicemail"
+      },
+      {
+        "name": "Vpn Key",
+        "classname": "uxd-vpn-key"
+      },
+      {
+        "name": "Vpn Lock",
+        "classname": "uxd-vpn-lock"
+      },
+      {
+        "name": "Weekend",
+        "classname": "uxd-weekend"
+      },
+      {
+        "name": "Whatshot",
+        "classname": "uxd-whatshot"
+      },
+      {
+        "name": "Work",
+        "classname": "uxd-work"
+      }
+    ]
+  },
+  {
+    "category": "Operations",
+    "icons": [
+      {
+        "name": "Action Bolt Unassigned",
+        "classname": "uxd-action-bolt-unassigned"
+      },
+      {
+        "name": "Bolt Add",
+        "classname": "uxd-bolt-add"
+      },
+      {
+        "name": "Breakdown Delay",
+        "classname": "uxd-breakdown-delay"
+      },
+      {
+        "name": "Breakdown",
+        "classname": "uxd-breakdown"
+      },
+      {
+        "name": "Canada",
+        "classname": "uxd-canada"
+      },
+      {
+        "name": "Cancel Load",
+        "classname": "uxd-cancel-load"
+      },
+      {
+        "name": "Cookie Sheet",
+        "classname": "uxd-cookie-sheet"
+      },
+      {
+        "name": "Critical Package Alt",
+        "classname": "uxd-critical-package-alt"
+      },
+      {
+        "name": "Critical Package",
+        "classname": "uxd-critical-package"
+      },
+      {
+        "name": "Demurrage Timer",
+        "classname": "uxd-demurrage-timer"
+      },
+      {
+        "name": "Dryice",
+        "classname": "uxd-dryice"
+      },
+      {
+        "name": "Add Task",
+        "classname": "uxd-add-task",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Aircraft Block",
+        "classname": "uxd-aircraft-block",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Aircraft Loading",
+        "classname": "uxd-aircraft-loading",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Aircraft Park",
+        "classname": "uxd-aircraft-park",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Aircraft Scheduled",
+        "classname": "uxd-aircraft-scheduled",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "En Route",
+        "classname": "uxd-en-route",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "In Range",
+        "classname": "uxd-in-range",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Plane Config",
+        "classname": "uxd-plane-config",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Plane Diag Down",
+        "classname": "uxd-plane-diag-down",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Plane Diag Up",
+        "classname": "uxd-plane-diag-up",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Shuttle Front Alt",
+        "classname": "uxd-shuttle-front-alt",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Shuttle Front",
+        "classname": "uxd-shuttle-front",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Task Assigned",
+        "classname": "uxd-task-assigned",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Task Unassigned",
+        "classname": "uxd-task-unassigned",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Van Dispatch",
+        "classname": "uxd-van-dispatch",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Van Front Alt",
+        "classname": "uxd-van-front-alt",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Van Front",
+        "classname": "uxd-van-front",
+        "group": "Flight-crew"
+      },
+      {
+        "name": "Add To Shipment",
+        "classname": "uxd-add-to-shipment",
+        "group": "Freight"
+      },
+      {
+        "name": "Shipping Cont",
+        "classname": "uxd-shipping-cont",
+        "group": "Freight"
+      },
+      {
+        "name": "Hazmat",
+        "classname": "uxd-hazmat"
+      },
+      {
+        "name": "Irregs",
+        "classname": "uxd-irregs"
+      },
+      {
+        "name": "Load 1da Alt",
+        "classname": "uxd-load-1da-alt"
+      },
+      {
+        "name": "Load 1da",
+        "classname": "uxd-load-1da"
+      },
+      {
+        "name": "Load 2da Alt",
+        "classname": "uxd-load-2da-alt"
+      },
+      {
+        "name": "Load 2da",
+        "classname": "uxd-load-2da"
+      },
+      {
+        "name": "Load 3da Alt",
+        "classname": "uxd-load-3da-alt"
+      },
+      {
+        "name": "Load 3da",
+        "classname": "uxd-load-3da"
+      },
+      {
+        "name": "Load Audit",
+        "classname": "uxd-load-audit"
+      },
+      {
+        "name": "Load Close",
+        "classname": "uxd-load-close"
+      },
+      {
+        "name": "Load Detail",
+        "classname": "uxd-load-detail"
+      },
+      {
+        "name": "Load EAM",
+        "classname": "uxd-load-eam"
+      },
+      {
+        "name": "Load Ground Alt",
+        "classname": "uxd-load-ground-alt"
+      },
+      {
+        "name": "Load Ground",
+        "classname": "uxd-load-ground"
+      },
+      {
+        "name": "Load Priority",
+        "classname": "uxd-load-priority"
+      },
+      {
+        "name": "Load Setup",
+        "classname": "uxd-load-setup"
+      },
+      {
+        "name": "Load Verified",
+        "classname": "uxd-load-verified"
+      },
+      {
+        "name": "Maint Manual",
+        "classname": "uxd-maint-manual",
+        "group": "Maintenance"
+      },
+      {
+        "name": "Safety Sensitive",
+        "classname": "uxd-safety-sensitive",
+        "group": "Maintenance"
+      },
+      {
+        "name": "Mexico",
+        "classname": "uxd-mexico"
+      },
+      {
+        "name": "Multi Load Alt 1",
+        "classname": "uxd-multi-load-alt-1"
+      },
+      {
+        "name": "Multi Load Alt 2",
+        "classname": "uxd-multi-load-alt-2"
+      },
+      {
+        "name": "Multi Load Alt 3",
+        "classname": "uxd-multi-load-alt-3"
+      },
+      {
+        "name": "Multi Load Alt",
+        "classname": "uxd-multi-load-alt"
+      },
+      {
+        "name": "Multi Load",
+        "classname": "uxd-multi-load"
+      },
+      {
+        "name": "Package Alt",
+        "classname": "uxd-package-alt"
+      },
+      {
+        "name": "Package Sort",
+        "classname": "uxd-package-sort"
+      },
+      {
+        "name": "Package",
+        "classname": "uxd-package"
+      },
+      {
+        "name": "5minWarning",
+        "classname": "uxd-5minwarning",
+        "group": "Pull"
+      },
+      {
+        "name": "Pallets",
+        "classname": "uxd-pallets",
+        "group": "Pull"
+      },
+      {
+        "name": "Pull Comment",
+        "classname": "uxd-pull-comment",
+        "group": "Pull"
+      },
+      {
+        "name": "Pull Delay",
+        "classname": "uxd-pull-delay",
+        "group": "Pull"
+      },
+      {
+        "name": "Pull Done",
+        "classname": "uxd-pull-done",
+        "group": "Pull"
+      },
+      {
+        "name": "Pull Move",
+        "classname": "uxd-pull-move",
+        "group": "Pull"
+      },
+      {
+        "name": "Pull User",
+        "classname": "uxd-pull-user",
+        "group": "Pull"
+      },
+      {
+        "name": "Pull",
+        "classname": "uxd-pull",
+        "group": "Pull"
+      },
+      {
+        "name": "PullOnly",
+        "classname": "uxd-pullonly",
+        "group": "Pull"
+      },
+      {
+        "name": "Replace",
+        "classname": "uxd-replace",
+        "group": "Pull"
+      },
+      {
+        "name": "Reminder",
+        "classname": "uxd-reminder"
+      },
+      {
+        "name": "Repair Message",
+        "classname": "uxd-repair-message"
+      },
+      {
+        "name": "Safety Vest",
+        "classname": "uxd-safety-vest"
+      },
+      {
+        "name": "Blocked Induction",
+        "classname": "uxd-blocked-induction",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Flow High",
+        "classname": "uxd-flow-high",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Flow Low",
+        "classname": "uxd-flow-low",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Flow Over",
+        "classname": "uxd-flow-over",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Full Bag",
+        "classname": "uxd-full-bag",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Induction",
+        "classname": "uxd-induction",
+        "group": "Small-sort"
+      },
+      {
+        "name": "No Small Sort Bag",
+        "classname": "uxd-no-small-sort-bag",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Small Sort Bag",
+        "classname": "uxd-small-sort-bag",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Sorter High",
+        "classname": "uxd-sorter-high",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Sorter Low",
+        "classname": "uxd-sorter-low",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Sorter Over",
+        "classname": "uxd-sorter-over",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Sorter Secondary",
+        "classname": "uxd-sorter-secondary",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Sorter",
+        "classname": "uxd-sorter",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Stale Bag",
+        "classname": "uxd-stale-bag",
+        "group": "Small-sort"
+      },
+      {
+        "name": "Speedometer",
+        "classname": "uxd-speedometer"
+      },
+      {
+        "name": "Stopsign",
+        "classname": "uxd-stopsign"
+      },
+      {
+        "name": "Thermometer",
+        "classname": "uxd-thermometer"
+      },
+      {
+        "name": "Auto Arrive Alert",
+        "classname": "uxd-auto-arrive-alert",
+        "group": "Transportation"
+      },
+      {
+        "name": "Auto Arrive Stop",
+        "classname": "uxd-auto-arrive-stop",
+        "group": "Transportation"
+      },
+      {
+        "name": "Auto Arrive",
+        "classname": "uxd-auto-arrive",
+        "group": "Transportation"
+      },
+      {
+        "name": "Break Seal Trailer",
+        "classname": "uxd-break-seal-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "Dirty",
+        "classname": "uxd-dirty",
+        "group": "Transportation"
+      },
+      {
+        "name": "Duplicate Dolly Left",
+        "classname": "uxd-duplicate-dolly-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Duplicate Dolly Right",
+        "classname": "uxd-duplicate-dolly-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Duplicate Trailer Left",
+        "classname": "uxd-duplicate-trailer-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Duplicate Trailer Right",
+        "classname": "uxd-duplicate-trailer-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Fhwa Trailer",
+        "classname": "uxd-fhwa-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "Flap Trailer",
+        "classname": "uxd-flap-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "Hole Trailer",
+        "classname": "uxd-hole-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "Leased Trailer",
+        "classname": "uxd-leased-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "Pkgcar_arrived",
+        "classname": "uxd-pkgcar_arrived",
+        "group": "Transportation"
+      },
+      {
+        "name": "Pkgcar_en_route",
+        "classname": "uxd-pkgcar_en_route",
+        "group": "Transportation"
+      },
+      {
+        "name": "Pkgcar_scheduled",
+        "classname": "uxd-pkgcar_scheduled",
+        "group": "Transportation"
+      },
+      {
+        "name": "Remove Segment",
+        "classname": "uxd-remove-segment",
+        "group": "Transportation"
+      },
+      {
+        "name": "Roller Trailer",
+        "classname": "uxd-roller-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "RollIng Door",
+        "classname": "uxd-rolling-door",
+        "group": "Transportation"
+      },
+      {
+        "name": "Seal Capture Trailer",
+        "classname": "uxd-seal-capture-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Arrived",
+        "classname": "uxd-trailer-arrived",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Confirmed",
+        "classname": "uxd-trailer-confirmed",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Doors",
+        "classname": "uxd-trailer-doors",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Empty",
+        "classname": "uxd-trailer-empty",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer En Route",
+        "classname": "uxd-trailer-en-route",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Message",
+        "classname": "uxd-trailer-message",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Move",
+        "classname": "uxd-trailer-move",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Rear",
+        "classname": "uxd-trailer-rear",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Scheduled",
+        "classname": "uxd-trailer-scheduled",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Verify",
+        "classname": "uxd-trailer-verify",
+        "group": "Transportation"
+      },
+      {
+        "name": "Undrawn Bay",
+        "classname": "uxd-undrawn-bay",
+        "group": "Transportation"
+      },
+      {
+        "name": "Wrong Trailer",
+        "classname": "uxd-wrong-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "Wrong Type Trailer",
+        "classname": "uxd-wrong-type-trailer",
+        "group": "Transportation"
+      },
+      {
+        "name": "Uld Outline",
+        "classname": "uxd-uld-outline"
+      },
+      {
+        "name": "Uld Problem",
+        "classname": "uxd-uld-problem"
+      },
+      {
+        "name": "Uld",
+        "classname": "uxd-uld"
+      },
+      {
+        "name": "Unlink",
+        "classname": "uxd-unlink"
+      },
+      {
+        "name": "Usa",
+        "classname": "uxd-usa"
+      },
+      {
+        "name": "Weight",
+        "classname": "uxd-weight"
+      }
+    ]
+  },
+  {
+    "category": "Rate",
+    "icons": [
+      {
+        "name": "Favorite Border",
+        "classname": "uxd-favorite-border"
+      },
+      {
+        "name": "Favorite",
+        "classname": "uxd-favorite"
+      },
+      {
+        "name": "Loyalty",
+        "classname": "uxd-loyalty"
+      },
+      {
+        "name": "Mood Bad",
+        "classname": "uxd-mood-bad"
+      },
+      {
+        "name": "Sentiment Neutral",
+        "classname": "uxd-sentiment-neutral"
+      },
+      {
+        "name": "Sentiment Very Dissatisfied",
+        "classname": "uxd-sentiment-very-dissatisfied"
+      },
+      {
+        "name": "Sentiment Very Satisfied",
+        "classname": "uxd-sentiment-very-satisfied"
+      },
+      {
+        "name": "Star Border",
+        "classname": "uxd-star-border"
+      },
+      {
+        "name": "Star Half",
+        "classname": "uxd-star-half"
+      },
+      {
+        "name": "Star",
+        "classname": "uxd-star"
+      },
+      {
+        "name": "Stars Circle",
+        "classname": "uxd-stars-circle"
+      },
+      {
+        "name": "Thumb Down",
+        "classname": "uxd-thumb-down"
+      },
+      {
+        "name": "Thumb Up",
+        "classname": "uxd-thumb-up"
+      },
+      {
+        "name": "Thumbs Up Down",
+        "classname": "uxd-thumbs-up-down"
+      }
+    ]
+  },
+  {
+    "category": "Shopping",
+    "icons": [
+      {
+        "name": "Account Balance Wallet",
+        "classname": "uxd-account-balance-wallet"
+      },
+      {
+        "name": "Add Shopping Cart",
+        "classname": "uxd-add-shopping-cart"
+      },
+      {
+        "name": "Card Giftcard",
+        "classname": "uxd-card-giftcard"
+      },
+      {
+        "name": "Card Membership",
+        "classname": "uxd-card-membership"
+      },
+      {
+        "name": "Credit Card",
+        "classname": "uxd-credit-card"
+      },
+      {
+        "name": "Receipt",
+        "classname": "uxd-receipt"
+      },
+      {
+        "name": "Remove Shopping Cart",
+        "classname": "uxd-remove-shopping-cart"
+      },
+      {
+        "name": "Shopping Basket",
+        "classname": "uxd-shopping-basket"
+      },
+      {
+        "name": "Shopping Cart",
+        "classname": "uxd-shopping-cart"
+      }
+    ]
+  },
+  {
+    "category": "Table-list",
+    "icons": [
+      {
+        "name": "Clear All",
+        "classname": "uxd-clear-all"
+      },
+      {
+        "name": "Filter List",
+        "classname": "uxd-filter-list"
+      },
+      {
+        "name": "List",
+        "classname": "uxd-list"
+      },
+      {
+        "name": "Low Priority",
+        "classname": "uxd-low-priority"
+      },
+      {
+        "name": "Reorder",
+        "classname": "uxd-reorder"
+      },
+      {
+        "name": "Sort By Alpha",
+        "classname": "uxd-sort-by-alpha"
+      },
+      {
+        "name": "Sort",
+        "classname": "uxd-sort"
+      },
+      {
+        "name": "Subject",
+        "classname": "uxd-subject"
+      },
+      {
+        "name": "Toc",
+        "classname": "uxd-toc"
+      },
+      {
+        "name": "View List",
+        "classname": "uxd-view-list"
+      }
+    ]
+  },
+  {
+    "category": "Text",
+    "icons": [
+      {
+        "name": "Copyright",
+        "classname": "uxd-copyright"
+      },
+      {
+        "name": "Euro Symbol",
+        "classname": "uxd-euro-symbol"
+      },
+      {
+        "name": "Gif",
+        "classname": "uxd-gif"
+      },
+      {
+        "name": "Help Outline",
+        "classname": "uxd-help-outline"
+      },
+      {
+        "name": "Help",
+        "classname": "uxd-help"
+      },
+      {
+        "name": "Http",
+        "classname": "uxd-http"
+      },
+      {
+        "name": "Info Outline",
+        "classname": "uxd-info-outline"
+      },
+      {
+        "name": "Info",
+        "classname": "uxd-info"
+      },
+      {
+        "name": "Live Help",
+        "classname": "uxd-live-help"
+      },
+      {
+        "name": "Monetization On",
+        "classname": "uxd-monetization-on"
+      },
+      {
+        "name": "Money Off",
+        "classname": "uxd-money-off"
+      }
+    ]
+  },
+  {
+    "category": "User",
+    "icons": [
+      {
+        "name": "Accessibility",
+        "classname": "uxd-accessibility",
+        "group": "Accessibility"
+      },
+      {
+        "name": "Accessible Alt",
+        "classname": "uxd-accessible-alt",
+        "group": "Accessibility"
+      },
+      {
+        "name": "Accessible",
+        "classname": "uxd-accessible",
+        "group": "Accessibility"
+      },
+      {
+        "name": "Account Box",
+        "classname": "uxd-account-box"
+      },
+      {
+        "name": "Account Circle",
+        "classname": "uxd-account-circle"
+      },
+      {
+        "name": "Admin Represent User",
+        "classname": "uxd-admin-represent-user"
+      },
+      {
+        "name": "Airline Seat Flat Angled",
+        "classname": "uxd-airline-seat-flat-angled"
+      },
+      {
+        "name": "Airline Seat Flat",
+        "classname": "uxd-airline-seat-flat"
+      },
+      {
+        "name": "Airline Seat Individual Suite",
+        "classname": "uxd-airline-seat-individual-suite"
+      },
+      {
+        "name": "Airline Seat Legroom Extra",
+        "classname": "uxd-airline-seat-legroom-extra"
+      },
+      {
+        "name": "Airline Seat Legroom Normal",
+        "classname": "uxd-airline-seat-legroom-normal"
+      },
+      {
+        "name": "Airline Seat Legroom Reduced",
+        "classname": "uxd-airline-seat-legroom-reduced"
+      },
+      {
+        "name": "Airline Seat Recline Extra",
+        "classname": "uxd-airline-seat-recline-extra"
+      },
+      {
+        "name": "Airline Seat Recline Normal",
+        "classname": "uxd-airline-seat-recline-normal"
+      },
+      {
+        "name": "Assigned 0 1 Alt",
+        "classname": "uxd-assigned-0-1-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 0 1",
+        "classname": "uxd-assigned-0-1",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 0 2 Alt",
+        "classname": "uxd-assigned-0-2-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 0 2",
+        "classname": "uxd-assigned-0-2",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 0 3 Alt",
+        "classname": "uxd-assigned-0-3-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 0 3",
+        "classname": "uxd-assigned-0-3",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 0 4 Alt",
+        "classname": "uxd-assigned-0-4-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 0 4",
+        "classname": "uxd-assigned-0-4",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 1 1 Alt",
+        "classname": "uxd-assigned-1-1-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 1 1",
+        "classname": "uxd-assigned-1-1",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 1 2 Alt",
+        "classname": "uxd-assigned-1-2-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 1 2",
+        "classname": "uxd-assigned-1-2",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 1 3 Alt",
+        "classname": "uxd-assigned-1-3-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 1 3",
+        "classname": "uxd-assigned-1-3",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 1 4 Alt",
+        "classname": "uxd-assigned-1-4-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 1 4",
+        "classname": "uxd-assigned-1-4",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 2 2 Alt",
+        "classname": "uxd-assigned-2-2-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 2 2",
+        "classname": "uxd-assigned-2-2",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 2 3 Alt",
+        "classname": "uxd-assigned-2-3-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 2 3",
+        "classname": "uxd-assigned-2-3",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 2 4 Alt",
+        "classname": "uxd-assigned-2-4-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 2 4",
+        "classname": "uxd-assigned-2-4",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 3 3 Alt",
+        "classname": "uxd-assigned-3-3-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 3 3",
+        "classname": "uxd-assigned-3-3",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 3 4 Alt",
+        "classname": "uxd-assigned-3-4-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 3 4",
+        "classname": "uxd-assigned-3-4",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 4 4 Alt",
+        "classname": "uxd-assigned-4-4-alt",
+        "group": "Assigned"
+      },
+      {
+        "name": "Assigned 4 4",
+        "classname": "uxd-assigned-4-4",
+        "group": "Assigned"
+      },
+      {
+        "name": "Driver History",
+        "classname": "uxd-driver-history"
+      },
+      {
+        "name": "Driver",
+        "classname": "uxd-driver"
+      },
+      {
+        "name": "Face",
+        "classname": "uxd-face"
+      },
+      {
+        "name": "Group Add",
+        "classname": "uxd-group-add"
+      },
+      {
+        "name": "Hierarchy",
+        "classname": "uxd-hierarchy"
+      },
+      {
+        "name": "Hr",
+        "classname": "uxd-hr"
+      },
+      {
+        "name": "People Outline",
+        "classname": "uxd-people-outline"
+      },
+      {
+        "name": "People",
+        "classname": "uxd-people"
+      },
+      {
+        "name": "Person Add",
+        "classname": "uxd-person-add"
+      },
+      {
+        "name": "Person Outline",
+        "classname": "uxd-person-outline"
+      },
+      {
+        "name": "Person",
+        "classname": "uxd-person"
+      },
+      {
+        "name": "Pilot",
+        "classname": "uxd-pilot"
+      },
+      {
+        "name": "Pregnant Woman",
+        "classname": "uxd-pregnant-woman"
+      },
+      {
+        "name": "Record Voice Over",
+        "classname": "uxd-record-voice-over"
+      },
+      {
+        "name": "Supervisor Account",
+        "classname": "uxd-supervisor-account"
+      },
+      {
+        "name": "User Recieve",
+        "classname": "uxd-user-recieve"
+      },
+      {
+        "name": "User Remove",
+        "classname": "uxd-user-remove"
+      },
+      {
+        "name": "User Send",
+        "classname": "uxd-user-send"
+      },
+      {
+        "name": "Wc",
+        "classname": "uxd-wc"
+      }
+    ]
+  },
+  {
+    "category": "Vehicle",
+    "icons": [
+      {
+        "name": "Airplanemode Inactive",
+        "classname": "uxd-airplanemode-inactive"
+      },
+      {
+        "name": "Beltloader Left",
+        "classname": "uxd-beltloader-left",
+        "group": "Airport"
+      },
+      {
+        "name": "Beltloader Right",
+        "classname": "uxd-beltloader-right",
+        "group": "Airport"
+      },
+      {
+        "name": "CrewVan Left",
+        "classname": "uxd-crewvan-left",
+        "group": "Airport"
+      },
+      {
+        "name": "CrewVan Right",
+        "classname": "uxd-crewvan-right",
+        "group": "Airport"
+      },
+      {
+        "name": "Dolly Empty Left",
+        "classname": "uxd-dolly-empty-left",
+        "group": "Airport"
+      },
+      {
+        "name": "Dolly Empty Right",
+        "classname": "uxd-dolly-empty-right",
+        "group": "Airport"
+      },
+      {
+        "name": "Dolly Uld Left",
+        "classname": "uxd-dolly-uld-left",
+        "group": "Airport"
+      },
+      {
+        "name": "Dolly Uld Right",
+        "classname": "uxd-dolly-uld-right",
+        "group": "Airport"
+      },
+      {
+        "name": "Fueltruck Left",
+        "classname": "uxd-fueltruck-left",
+        "group": "Airport"
+      },
+      {
+        "name": "Fueltruck Right",
+        "classname": "uxd-fueltruck-right",
+        "group": "Airport"
+      },
+      {
+        "name": "Kloader Left",
+        "classname": "uxd-kloader-left",
+        "group": "Airport"
+      },
+      {
+        "name": "Kloader Right",
+        "classname": "uxd-kloader-right",
+        "group": "Airport"
+      },
+      {
+        "name": "Pushbacktug Left",
+        "classname": "uxd-pushbacktug-left",
+        "group": "Airport"
+      },
+      {
+        "name": "Pushbacktug Right",
+        "classname": "uxd-pushbacktug-right",
+        "group": "Airport"
+      },
+      {
+        "name": "Tug Left",
+        "classname": "uxd-tug-left",
+        "group": "Airport"
+      },
+      {
+        "name": "Tug Right",
+        "classname": "uxd-tug-right",
+        "group": "Airport"
+      },
+      {
+        "name": "Airport Shuttle",
+        "classname": "uxd-airport-shuttle"
+      },
+      {
+        "name": "Directions Boat",
+        "classname": "uxd-directions-boat"
+      },
+      {
+        "name": "Directions Bus",
+        "classname": "uxd-directions-bus"
+      },
+      {
+        "name": "Directions Car",
+        "classname": "uxd-directions-car"
+      },
+      {
+        "name": "Directions Railway",
+        "classname": "uxd-directions-railway"
+      },
+      {
+        "name": "Directions Subway",
+        "classname": "uxd-directions-subway"
+      },
+      {
+        "name": "Flight Land",
+        "classname": "uxd-flight-land"
+      },
+      {
+        "name": "Flight Takeoff",
+        "classname": "uxd-flight-takeoff"
+      },
+      {
+        "name": "Flight",
+        "classname": "uxd-flight"
+      },
+      {
+        "name": "Local Car Wash",
+        "classname": "uxd-local-car-wash"
+      },
+      {
+        "name": "Local Shipping",
+        "classname": "uxd-local-shipping"
+      },
+      {
+        "name": "Local Taxi",
+        "classname": "uxd-local-taxi"
+      },
+      {
+        "name": "Motorcycle",
+        "classname": "uxd-motorcycle"
+      },
+      {
+        "name": "Train",
+        "classname": "uxd-train"
+      },
+      {
+        "name": "Tram",
+        "classname": "uxd-tram"
+      },
+      {
+        "name": "Chassis Container Left",
+        "classname": "uxd-chassis-container-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Chassis Container Right",
+        "classname": "uxd-chassis-container-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Chassis Long Left",
+        "classname": "uxd-chassis-long-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Chassis Long Right",
+        "classname": "uxd-chassis-long-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Chassis Short Left",
+        "classname": "uxd-chassis-short-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Chassis Short Right",
+        "classname": "uxd-chassis-short-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Dolly Left",
+        "classname": "uxd-dolly-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Dolly Right",
+        "classname": "uxd-dolly-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Doubles",
+        "classname": "uxd-doubles",
+        "group": "Transportation"
+      },
+      {
+        "name": "Drop Long Left",
+        "classname": "uxd-drop-long-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Drop Long Right",
+        "classname": "uxd-drop-long-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Drop Short Left",
+        "classname": "uxd-drop-short-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Drop Short Right",
+        "classname": "uxd-drop-short-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Lift Deck Left",
+        "classname": "uxd-lift-deck-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Lift Deck Right",
+        "classname": "uxd-lift-deck-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Long Air Left",
+        "classname": "uxd-long-air-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Long Air Right",
+        "classname": "uxd-long-air-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Long Freight Left",
+        "classname": "uxd-long-freight-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Long Freight Right",
+        "classname": "uxd-long-freight-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Long Left",
+        "classname": "uxd-long-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Long Right",
+        "classname": "uxd-long-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Pkgcar Left",
+        "classname": "uxd-pkgcar-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Pkgcar Right",
+        "classname": "uxd-pkgcar-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Short Air Left",
+        "classname": "uxd-short-air-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Short Air Right",
+        "classname": "uxd-short-air-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Double Left",
+        "classname": "uxd-tractor-double-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Double Right",
+        "classname": "uxd-tractor-double-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Maintenance Left",
+        "classname": "uxd-tractor-maintenance-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Maintenance Right",
+        "classname": "uxd-tractor-maintenance-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Single Left",
+        "classname": "uxd-tractor-single-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Single Right",
+        "classname": "uxd-tractor-single-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Sleeper Left",
+        "classname": "uxd-tractor-sleeper-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Sleeper Right",
+        "classname": "uxd-tractor-sleeper-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Unknown Left",
+        "classname": "uxd-tractor-unknown-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Tractor Unknown Right",
+        "classname": "uxd-tractor-unknown-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Container Short Left",
+        "classname": "uxd-trailer-container-short-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Container Short Right",
+        "classname": "uxd-trailer-container-short-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Ctype Left",
+        "classname": "uxd-trailer-ctype-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Ctype Right",
+        "classname": "uxd-trailer-ctype-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Long A5 Left",
+        "classname": "uxd-trailer-long-a5-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Long A5 Right",
+        "classname": "uxd-trailer-long-a5-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Long Martac Left",
+        "classname": "uxd-trailer-long-martac-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Long Martac Right",
+        "classname": "uxd-trailer-long-martac-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Rubus Left",
+        "classname": "uxd-trailer-rubus-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Rubus Right",
+        "classname": "uxd-trailer-rubus-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Short A2 Left",
+        "classname": "uxd-trailer-short-a2-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Short A2 Right",
+        "classname": "uxd-trailer-short-a2-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Short A3 Left",
+        "classname": "uxd-trailer-short-a3-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Short A3 Right",
+        "classname": "uxd-trailer-short-a3-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Short Freight Left",
+        "classname": "uxd-trailer-short-freight-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Short Freight Right",
+        "classname": "uxd-trailer-short-freight-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Short Left",
+        "classname": "uxd-trailer-short-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Trailer Short Right",
+        "classname": "uxd-trailer-short-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Train Left",
+        "classname": "uxd-train-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Train Right",
+        "classname": "uxd-train-right",
+        "group": "Transportation"
+      },
+      {
+        "name": "Triples",
+        "classname": "uxd-triples",
+        "group": "Transportation"
+      },
+      {
+        "name": "Unknown Trailer Left",
+        "classname": "uxd-unknown-trailer-left",
+        "group": "Transportation"
+      },
+      {
+        "name": "Unknown Trailer Right",
+        "classname": "uxd-unknown-trailer-right",
+        "group": "Transportation"
+      }
+    ]
+  }
+]

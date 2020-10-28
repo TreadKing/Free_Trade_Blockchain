@@ -1,0 +1,11 @@
+/* Add application styles & imports to this file! */
+/*Import Global UPS Styles*/
+@import 'assets/styles/ups-styles/styles-ionic/scss/ionic.scss';
+
+/*Import desired theme*/
+@import 'assets/styles/ups-styles/styles-core/scss/themes/work.scss';
+
+/* Include theme */
+body {
+  @include work-theme;
+}

@@ -1,0 +1,17 @@
+@import './base-theme.scss';
+@import './variables.scss';
+
+@function build-earn-theme-map() {
+
+    $earn-theme: (
+        "accent": #2a7d5a,
+        "header-shield-background": #2a7d5a,
+        "header-shield-border": #5C917B
+    );
+
+    @return map-merge($ups-base-theme, $earn-theme);
+}
+
+@mixin earn-theme {
+    @include variables(build-earn-theme-map());
+}
